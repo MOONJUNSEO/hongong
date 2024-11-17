@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<!-- saved from url=(0227)https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/ -->
+<html class="avada-html-layout-wide no-applicationcache geolocation history postmessage websockets localstorage sessionstorage no-websqldatabase webworkers hashchange audio canvas canvastext video webgl cssgradients multiplebgs opacity rgba inlinesvg hsla supports svgclippaths smil no-touchevents fontface generatedcontent textshadow cssanimations backgroundsize borderimage borderradius boxshadow flexbox cssreflections csstransforms csstransforms3d csstransitions ua-windows_nt ua-windows_nt-10 ua-windows_nt-10-0 ua-chrome ua-chrome-130 ua-chrome-130-0 ua-chrome-130-0-0 ua-chrome-130-0-0-0 ua-desktop ua-desktop-windows ua-webkit ua-webkit-537 ua-webkit-537-36 js" lang="ko-KR" data-useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script type="text/javascript" async="" src="./index_files/js"></script><script async="" src="./index_files/gtm.js.다운로드"></script><script data-cfasync="false" data-pagespeed-no-defer="">var gtm4wp_datalayer_name="dataLayer";var dataLayer=dataLayer||[];</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO plugin v21.8.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>[AI란 무엇인가] 인공지능 머신러닝 딥러닝 차이점 총정리 혼자 공부하는 책</title>
+	<meta name="description" content="[AI란 무엇인가] 인공지능 머신러닝 딥러닝 차이점 총정리 두 줄 요약: ‘인공지능 &gt; 머신러닝 &gt; 딥러닝 순서로 범위가 크다’ 라고 이해하시면 편합니다.인공지능은 머신러닝과 딥러닝을 포괄하는 개념이에요.">
+	<link rel="canonical" href="https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/">
+	<meta property="og:locale" content="ko_KR">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="[AI란 무엇인가] 인공지능 머신러닝 딥러닝 차이점 총정리 혼자 공부하는 책">
+	<meta property="og:description" content="[AI란 무엇인가] 인공지능 머신러닝 딥러닝 차이점 총정리 두 줄 요약: ‘인공지능 &gt; 머신러닝 &gt; 딥러닝 순서로 범위가 크다’ 라고 이해하시면 편합니다.인공지능은 머신러닝과 딥러닝을 포괄하는 개념이에요.">
+	<meta property="og:url" content="https://hongong.hanbit.co.kr/ai-무엇인가-인공지능-머신러닝-딥러닝-차이점-총정리/">
+	<meta property="og:site_name" content="혼자 공부하는 책">
+	<meta property="article:publisher" content="https://www.facebook.com/hanbitmedia">
+	<meta property="article:published_time" content="2021-10-05T02:43:30+00:00">
+	<meta property="article:modified_time" content="2024-03-07T07:52:10+00:00">
+	<meta property="og:image" content="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점.png">
+	<meta property="og:image:width" content="800">
+	<meta property="og:image:height" content="800">
+	<meta property="og:image:type" content="image/png">
+	<meta name="author" content="혼공족장">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:creator" content="@hanbit">
+	<meta name="twitter:site" content="@hanbit">
+	<meta name="twitter:label1" content="Written by">
+	<meta name="twitter:data1" content="혼공족장">
+	<meta name="twitter:label2" content="Est. reading time">
+	<meta name="twitter:data2" content="13분">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/#article","isPartOf":{"@id":"https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/"},"author":{"name":"혼공족장","@id":"https://hongong.hanbit.co.kr/#/schema/person/54bd4651168ea623d625054ce7f23d35"},"headline":"[AI란 무엇인가] 인공지능 머신러닝 딥러닝 차이점 총정리","datePublished":"2021-10-05T02:43:30+00:00","dateModified":"2024-03-07T07:52:10+00:00","mainEntityOfPage":{"@id":"https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/"},"wordCount":350,"commentCount":5,"publisher":{"@id":"https://hongong.hanbit.co.kr/#organization"},"image":{"@id":"https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/#primaryimage"},"thumbnailUrl":"https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점.png","keywords":["딥러닝","deep learning","파이토치","사이킷런","한빛미디어","인공신경망","AI","텐서플로","혼자공부하는머신러닝딥러닝","인공지능","케라스","Artificial Intelligence","머신러닝","machine learning"],"articleSection":["읽을거리"],"inLanguage":"ko-KR","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/#respond"]}]},{"@type":"WebPage","@id":"https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/","url":"https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/","name":"[AI란 무엇인가] 인공지능 머신러닝 딥러닝 차이점 총정리 혼자 공부하는 책","isPartOf":{"@id":"https://hongong.hanbit.co.kr/#website"},"primaryImageOfPage":{"@id":"https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/#primaryimage"},"image":{"@id":"https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/#primaryimage"},"thumbnailUrl":"https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점.png","datePublished":"2021-10-05T02:43:30+00:00","dateModified":"2024-03-07T07:52:10+00:00","description":"[AI란 무엇인가] 인공지능 머신러닝 딥러닝 차이점 총정리 두 줄 요약: ‘인공지능 > 머신러닝 > 딥러닝 순서로 범위가 크다’ 라고 이해하시면 편합니다.인공지능은 머신러닝과 딥러닝을 포괄하는 개념이에요.","breadcrumb":{"@id":"https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/#breadcrumb"},"inLanguage":"ko-KR","potentialAction":[{"@type":"ReadAction","target":["https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/"]}]},{"@type":"ImageObject","inLanguage":"ko-KR","@id":"https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/#primaryimage","url":"https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점.png","contentUrl":"https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점.png","width":800,"height":800,"caption":"AI란 무엇인가 인공지능 머신러닝 딥러닝 차이점"},{"@type":"BreadcrumbList","@id":"https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://hongong.hanbit.co.kr/"},{"@type":"ListItem","position":2,"name":"[AI란 무엇인가] 인공지능 머신러닝 딥러닝 차이점 총정리"}]},{"@type":"WebSite","@id":"https://hongong.hanbit.co.kr/#website","url":"https://hongong.hanbit.co.kr/","name":"혼자 공부하는 프로그래밍","description":"때론 같이, 때론 혼자","publisher":{"@id":"https://hongong.hanbit.co.kr/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://hongong.hanbit.co.kr/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"ko-KR"},{"@type":"Organization","@id":"https://hongong.hanbit.co.kr/#organization","name":"혼자 공부하는 프로그래밍","url":"https://hongong.hanbit.co.kr/","logo":{"@type":"ImageObject","inLanguage":"ko-KR","@id":"https://hongong.hanbit.co.kr/#/schema/logo/image/","url":"https://hongong.hanbit.co.kr/wp-content/uploads/2019/05/logo.png","contentUrl":"https://hongong.hanbit.co.kr/wp-content/uploads/2019/05/logo.png","width":172,"height":50,"caption":"혼자 공부하는 프로그래밍"},"image":{"@id":"https://hongong.hanbit.co.kr/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/hanbitmedia","https://twitter.com/hanbit","https://www.instagram.com/developer_recipe/?hl=ko","https://www.youtube.com/HanbitMedia93"]},{"@type":"Person","@id":"https://hongong.hanbit.co.kr/#/schema/person/54bd4651168ea623d625054ce7f23d35","name":"혼공족장","image":{"@type":"ImageObject","inLanguage":"ko-KR","@id":"https://hongong.hanbit.co.kr/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/058e86091f6787bd9801323ccaf7ee11?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/058e86091f6787bd9801323ccaf7ee11?s=96&d=mm&r=g","caption":"혼공족장"},"url":"https://hongong.hanbit.co.kr/author/hongong/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+
+<!-- WordPress KBoard plugin 6.3 - https://www.cosmosfarm.com/products/kboard -->
+<link rel="alternate" href="https://hongong.hanbit.co.kr/wp-content/plugins/kboard/rss.php" type="application/rss+xml" title="혼자 공부하는 책 » KBoard 통합 피드">
+<!-- WordPress KBoard plugin 6.3 - https://www.cosmosfarm.com/products/kboard -->
+
+<link rel="dns-prefetch" href="https://stats.wp.com/">
+<link rel="dns-prefetch" href="https://t1.daumcdn.net/">
+<link rel="dns-prefetch" href="https://use.fontawesome.com/">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="https://c0.wp.com/">
+<link rel="alternate" type="application/rss+xml" title="혼자 공부하는 책 » 피드" href="https://hongong.hanbit.co.kr/feed/">
+<link rel="alternate" type="application/rss+xml" title="혼자 공부하는 책 » 댓글 피드" href="https://hongong.hanbit.co.kr/comments/feed/">
+					<link rel="shortcut icon" href="https://hongong.hanbit.co.kr/wp-content/uploads/2019/05/%ED%8C%8C%EB%B9%84%EC%BD%98.ico" type="image/x-icon">
+		
+		
+		
+		
+				<link rel="alternate" type="application/rss+xml" title="혼자 공부하는 책 » [AI란 무엇인가] 인공지능 머신러닝 딥러닝 차이점 총정리 댓글 피드" href="https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/feed/">
+		<!-- This site uses the Google Analytics by ExactMetrics plugin v7.10.1 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+							<script src="./index_files/js(1)" data-cfasync="false" data-wpfc-render="false" type="text/javascript" async=""></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">var em_version='7.10.1';var em_track_user=true;var em_no_track_reason='';var disableStrs=['ga-disable-G-9X8KV75QGW',];function __gtagTrackerIsOptedOut(){for(var index=0;index<disableStrs.length;index++){if(document.cookie.indexOf(disableStrs[index]+'=true')>-1){return true;}}return false;}if(__gtagTrackerIsOptedOut()){for(var index=0;index<disableStrs.length;index++){window[disableStrs[index]]=true;}}function __gtagTrackerOptout(){for(var index=0;index<disableStrs.length;index++){document.cookie=disableStrs[index]+'=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';window[disableStrs[index]]=true;}}if('undefined'===typeof gaOptout){function gaOptout(){__gtagTrackerOptout();}}window.dataLayer=window.dataLayer||[];window.ExactMetricsDualTracker={helpers:{},trackers:{},};if(em_track_user){function __gtagDataLayer(){dataLayer.push(arguments);}function __gtagTracker(type,name,parameters){if(!parameters){parameters={};}if(parameters.send_to){__gtagDataLayer.apply(null,arguments);return;}if(type==='event'){parameters.send_to=exactmetrics_frontend.v4_id;var hookName=name;if(typeof parameters['event_category']!=='undefined'){hookName=parameters['event_category']+':'+name;}if(typeof ExactMetricsDualTracker.trackers[hookName]!=='undefined'){ExactMetricsDualTracker.trackers[hookName](parameters);}else{__gtagDataLayer('event',name,parameters);}}else{__gtagDataLayer.apply(null,arguments);}}__gtagTracker('js',new Date());__gtagTracker('set',{'developer_id.dNDMyYj':true,});__gtagTracker('config','G-9X8KV75QGW',{"forceSSL":"true"});window.gtag=__gtagTracker;(function(){var noopfn=function(){return null;};var newtracker=function(){return new Tracker();};var Tracker=function(){return null;};var p=Tracker.prototype;p.get=noopfn;p.set=noopfn;p.send=function(){var args=Array.prototype.slice.call(arguments);args.unshift('send');__gaTracker.apply(null,args);};var __gaTracker=function(){var len=arguments.length;if(len===0){return;}var f=arguments[len-1];if(typeof f!=='object'||f===null||typeof f.hitCallback!=='function'){if('send'===arguments[0]){var hitConverted,hitObject=false,action;if('event'===arguments[1]){if('undefined'!==typeof arguments[3]){hitObject={'eventAction':arguments[3],'eventCategory':arguments[2],'eventLabel':arguments[4],'value':arguments[5]?arguments[5]:1,}}}if('pageview'===arguments[1]){if('undefined'!==typeof arguments[2]){hitObject={'eventAction':'page_view','page_path':arguments[2],}}}if(typeof arguments[2]==='object'){hitObject=arguments[2];}if(typeof arguments[5]==='object'){Object.assign(hitObject,arguments[5]);}if('undefined'!==typeof arguments[1].hitType){hitObject=arguments[1];if('pageview'===hitObject.hitType){hitObject.eventAction='page_view';}}if(hitObject){action='timing'===arguments[1].hitType?'timing_complete':hitObject.eventAction;hitConverted=mapArgs(hitObject);__gtagTracker('event',action,hitConverted);}}return;}function mapArgs(args){var arg,hit={};var gaMap={'eventCategory':'event_category','eventAction':'event_action','eventLabel':'event_label','eventValue':'event_value','nonInteraction':'non_interaction','timingCategory':'event_category','timingVar':'name','timingValue':'value','timingLabel':'event_label','page':'page_path','location':'page_location','title':'page_title',};for(arg in args){if(!(!args.hasOwnProperty(arg)||!gaMap.hasOwnProperty(arg))){hit[gaMap[arg]]=args[arg];}else{hit[arg]=args[arg];}}return hit;}try{f.hitCallback();}catch(ex){}};__gaTracker.create=newtracker;__gaTracker.getByName=newtracker;__gaTracker.getAll=function(){return[];};__gaTracker.remove=noopfn;__gaTracker.loaded=true;window['__gaTracker']=__gaTracker;})();}else{console.log("");(function(){function __gtagTracker(){return null;}window['__gtagTracker']=__gtagTracker;window['gtag']=__gtagTracker;})();}</script>
+				<!-- / Google Analytics by ExactMetrics -->
+		<script type="text/javascript">window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/hongong.hanbit.co.kr\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.6"}};!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);</script><script src="./index_files/wp-emoji-release.min.js.다운로드" type="text/javascript" defer=""></script>
+<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:none!important;padding:0!important}</style>
+	<link rel="stylesheet" id="font-awesome-5-css" href="./index_files/all.css" type="text/css" media="all">
+<link rel="stylesheet" id="dpProEventCalendar_headcss-css" href="./index_files/dpProEventCalendar.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-original-css" href="./index_files/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="mediaelement-css" href="./index_files/mediaelementplayer-legacy.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-mediaelement-css" href="./index_files/wp-mediaelement.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="classic-theme-styles-css" href="./index_files/classic-themes.min.css" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black:#000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#fff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgba(6,147,227,1) 0%,#9b51e0 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,#7adcb4 0%,#00d082 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgba(255,105,0,1) 0%,#cf2e2e 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,#eee 0%,#a9b8c3 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,#4aeadc 0%,#9778d1 20%,#cf2aba 40%,#ee2c82 60%,#fb6962 80%,#fef84c 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,#ffceec 0%,#9896f0 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,#fecda5 0%,#fe2d2d 50%,#6b003e 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,#ffcb70 0%,#c751c0 50%,#4158d0 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,#fff5cb 0%,#b6e3d4 50%,#33a7b5 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,#caf880 0%,#71ce7e 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,#020381 0%,#2874fc 100%);--wp--preset--duotone--dark-grayscale:url(#wp-duotone-dark-grayscale);--wp--preset--duotone--grayscale:url(#wp-duotone-grayscale);--wp--preset--duotone--purple-yellow:url(#wp-duotone-purple-yellow);--wp--preset--duotone--blue-red:url(#wp-duotone-blue-red);--wp--preset--duotone--midnight:url(#wp-duotone-midnight);--wp--preset--duotone--magenta-yellow:url(#wp-duotone-magenta-yellow);--wp--preset--duotone--purple-green:url(#wp-duotone-purple-green);--wp--preset--duotone--blue-orange:url(#wp-duotone-blue-orange);--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:.44rem;--wp--preset--spacing--30:.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0,0,0,.2);--wp--preset--shadow--deep:12px 12px 50px rgba(0,0,0,.4);--wp--preset--shadow--sharp:6px 6px 0 rgba(0,0,0,.2);--wp--preset--shadow--outlined:6px 6px 0 -3px rgba(255,255,255,1) , 6px 6px rgba(0,0,0,1);--wp--preset--shadow--crisp:6px 6px 0 rgba(0,0,0,1)}:where(.is-layout-flex){gap:.5em}body .is-layout-flow>.alignleft{float:left;margin-inline-start:0;margin-inline-end:2em}body .is-layout-flow>.alignright{float:right;margin-inline-start:2em;margin-inline-end:0}body .is-layout-flow>.aligncenter{margin-left:auto!important;margin-right:auto!important}body .is-layout-constrained>.alignleft{float:left;margin-inline-start:0;margin-inline-end:2em}body .is-layout-constrained>.alignright{float:right;margin-inline-start:2em;margin-inline-end:0}body .is-layout-constrained>.aligncenter{margin-left:auto!important;margin-right:auto!important}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:var(--wp--style--global--content-size);margin-left:auto!important;margin-right:auto!important}body .is-layout-constrained>.alignwide{max-width:var(--wp--style--global--wide-size)}body .is-layout-flex{display:flex}body .is-layout-flex{flex-wrap:wrap;align-items:center}body .is-layout-flex>*{margin:0}:where(.wp-block-columns.is-layout-flex){gap:2em}.has-black-color{color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-color{color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-color{color:var(--wp--preset--color--white)!important}.has-pale-pink-color{color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-color{color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-color{color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-color{color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-color{color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-color{color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-color{color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-color{color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-color{color:var(--wp--preset--color--vivid-purple)!important}.has-black-background-color{background-color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-background-color{background-color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-background-color{background-color:var(--wp--preset--color--white)!important}.has-pale-pink-background-color{background-color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-background-color{background-color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-background-color{background-color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-background-color{background-color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-background-color{background-color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-background-color{background-color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-background-color{background-color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-background-color{background-color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-background-color{background-color:var(--wp--preset--color--vivid-purple)!important}.has-black-border-color{border-color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-border-color{border-color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-border-color{border-color:var(--wp--preset--color--white)!important}.has-pale-pink-border-color{border-color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-border-color{border-color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-border-color{border-color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-border-color{border-color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-border-color{border-color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-border-color{border-color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-border-color{border-color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-border-color{border-color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-border-color{border-color:var(--wp--preset--color--vivid-purple)!important}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background:var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple)!important}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background:var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan)!important}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange)!important}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red)!important}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background:var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray)!important}.has-cool-to-warm-spectrum-gradient-background{background:var(--wp--preset--gradient--cool-to-warm-spectrum)!important}.has-blush-light-purple-gradient-background{background:var(--wp--preset--gradient--blush-light-purple)!important}.has-blush-bordeaux-gradient-background{background:var(--wp--preset--gradient--blush-bordeaux)!important}.has-luminous-dusk-gradient-background{background:var(--wp--preset--gradient--luminous-dusk)!important}.has-pale-ocean-gradient-background{background:var(--wp--preset--gradient--pale-ocean)!important}.has-electric-grass-gradient-background{background:var(--wp--preset--gradient--electric-grass)!important}.has-midnight-gradient-background{background:var(--wp--preset--gradient--midnight)!important}.has-small-font-size{font-size:var(--wp--preset--font-size--small)!important}.has-medium-font-size{font-size:var(--wp--preset--font-size--medium)!important}.has-large-font-size{font-size:var(--wp--preset--font-size--large)!important}.has-x-large-font-size{font-size:var(--wp--preset--font-size--x-large)!important}.wp-block-navigation a:where(:not(.wp-element-button)){color:inherit}:where(.wp-block-columns.is-layout-flex){gap:2em}.wp-block-pullquote{font-size:1.5em;line-height:1.6}</style>
+<link rel="stylesheet" id="essential-grid-plugin-settings-css" href="./index_files/settings.css" type="text/css" media="all">
+<link rel="stylesheet" id="tp-open-sans-css" href="./index_files/css" type="text/css" media="all">
+<link rel="stylesheet" id="tp-raleway-css" href="./index_files/css(1)" type="text/css" media="all">
+<link rel="stylesheet" id="tp-droid-serif-css" href="./index_files/css(2)" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="./index_files/dashicons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="post-views-counter-frontend-css" href="./index_files/frontend.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="./index_files/settings(1).css" type="text/css" media="all">
+<style id="rs-plugin-settings-inline-css" type="text/css">#rs-demo-id{}</style>
+<link rel="stylesheet" id="vlp-public-css" href="./index_files/public.css" type="text/css" media="all">
+<link rel="stylesheet" id="avada-stylesheet-css" href="./index_files/style.min.css" type="text/css" media="all">
+<!--[if IE]>
+<link rel='stylesheet' id='avada-IE-css' href='https://hongong.hanbit.co.kr/wp-content/themes/Avada/assets/css/ie.min.css?ver=5.9' type='text/css' media='all' />
+<style id='avada-IE-inline-css' type='text/css'>
+.avada-select-parent .select-arrow{background-color:#ffffff}
+.select-arrow{background-color:#ffffff}
+</style>
+<![endif]-->
+<link rel="stylesheet" id="fusion-dynamic-css-css" href="./index_files/cc44b2948aeee8c930db49fcc9637ec5.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="hcb-style-css" href="./index_files/hcb--light.css" type="text/css" media="all">
+<style id="hcb-style-inline-css" type="text/css">
+:root{--hcb-font-size: 14px}:root{--hcb-font-size--mobile: 13px}:root{--hcb-font-family:Menlo, Consolas, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;}
+</style>
+<link rel="stylesheet" id="avada-max-1c-max-sh-640-max-640-sliders-css" href="./index_files/saved_resource" type="text/css" media="only screen and (max-width: 640px)">
+<link rel="stylesheet" id="avada-max-2c-css" href="./index_files/max-2c.min.css" type="text/css" media="only screen and (max-width: 712px)">
+<link rel="stylesheet" id="avada-min-2c-max-3c-css" href="./index_files/min-2c-max-3c.min.css" type="text/css" media="only screen and (min-width: 712px) and (max-width: 784px)">
+<link rel="stylesheet" id="avada-min-3c-max-4c-css" href="./index_files/min-3c-max-4c.min.css" type="text/css" media="only screen and (min-width: 784px) and (max-width: 856px)">
+<link rel="stylesheet" id="avada-min-4c-max-5c-css" href="./index_files/min-4c-max-5c.min.css" type="text/css" media="only screen and (min-width: 856px) and (max-width: 928px)">
+<link rel="stylesheet" id="avada-min-5c-max-6c-css" href="./index_files/min-5c-max-6c.min.css" type="text/css" media="only screen and (min-width: 928px) and (max-width: 1000px)">
+<link rel="stylesheet" id="avada-min-shbp-min-sh-cbp-css" href="./index_files/saved_resource(1)" type="text/css" media="only screen and (min-width: 800px)">
+<link rel="stylesheet" id="avada-max-shbp-max-sh-shbp-max-sh-cbp-max-sh-sbp-max-sh-cbp-cf7-max-sh-cbp-sliders-css" href="./index_files/saved_resource(2)" type="text/css" media="only screen and (max-width: 800px)">
+<link rel="stylesheet" id="avada-min-768-max-1024-p-css" href="./index_files/min-768-max-1024-p.min.css" type="text/css" media="only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)">
+<link rel="stylesheet" id="avada-min-768-max-1024-l-css" href="./index_files/min-768-max-1024-l.min.css" type="text/css" media="only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)">
+<link rel="stylesheet" id="avada-max-shbp-18-css" href="./index_files/max-shbp-18.min.css" type="text/css" media="only screen and (max-width: 782px)">
+<link rel="stylesheet" id="avada-max-shbp-32-css" href="./index_files/max-shbp-32.min.css" type="text/css" media="only screen and (max-width: 768px)">
+<link rel="stylesheet" id="avada-max-640-css" href="./index_files/max-640.min.css" type="text/css" media="only screen and (max-device-width: 640px)">
+<link rel="stylesheet" id="kboard-comments-skin-default-css" href="./index_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="kboard-editor-media-css" href="./index_files/editor_media.css" type="text/css" media="all">
+<link rel="stylesheet" id="kboard-skin-default-css" href="./index_files/style(1).css" type="text/css" media="all">
+<link rel="stylesheet" id="kboard-skin-biz-community-css" href="./index_files/style(2).css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="./index_files/jetpack.css" type="text/css" media="all">
+<script type="text/javascript" src="./index_files/frontend-gtag.min.js.다운로드" id="exactmetrics-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id="exactmetrics-frontend-script-js-extra">//<![CDATA[
+var exactmetrics_frontend={"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/hongong.hanbit.co.kr","hash_tracking":"false","ua":"","v4_id":"G-9X8KV75QGW"};
+//]]></script>
+<script type="text/javascript" src="./index_files/jquery.min.js.다운로드" id="jquery-core-js"></script>
+<script type="text/javascript" src="./index_files/jquery-migrate.min.js.다운로드" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="./index_files/jquery.esgbox.min.js.다운로드" id="themepunchboxext-js"></script>
+<script type="text/javascript" src="./index_files/jquery.themepunch.tools.min.js.다운로드" id="tp-tools-js"></script>
+<script type="text/javascript" src="./index_files/jquery.themepunch.revolution.min.js.다운로드" id="revmin-js"></script>
+<link rel="https://api.w.org/" href="https://hongong.hanbit.co.kr/wp-json/"><link rel="alternate" type="application/json" href="https://hongong.hanbit.co.kr/wp-json/wp/v2/posts/1828"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hongong.hanbit.co.kr/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://hongong.hanbit.co.kr/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.2.6">
+<link rel="shortlink" href="https://hongong.hanbit.co.kr/?p=1828">
+<link rel="alternate" type="application/json+oembed" href="https://hongong.hanbit.co.kr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhongong.hanbit.co.kr%2Fai-%25eb%25ac%25b4%25ec%2597%2587%25ec%259d%25b8%25ea%25b0%2580-%25ec%259d%25b8%25ea%25b3%25b5%25ec%25a7%2580%25eb%258a%25a5-%25eb%25a8%25b8%25ec%258b%25a0%25eb%259f%25ac%25eb%258b%259d-%25eb%2594%25a5%25eb%259f%25ac%25eb%258b%259d-%25ec%25b0%25a8%25ec%259d%25b4%25ec%25a0%2590-%25ec%25b4%259d%25ec%25a0%2595%25eb%25a6%25ac%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://hongong.hanbit.co.kr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhongong.hanbit.co.kr%2Fai-%25eb%25ac%25b4%25ec%2597%2587%25ec%259d%25b8%25ea%25b0%2580-%25ec%259d%25b8%25ea%25b3%25b5%25ec%25a7%2580%25eb%258a%25a5-%25eb%25a8%25b8%25ec%258b%25a0%25eb%259f%25ac%25eb%258b%259d-%25eb%2594%25a5%25eb%259f%25ac%25eb%258b%259d-%25ec%25b0%25a8%25ec%259d%25b4%25ec%25a0%2590-%25ec%25b4%259d%25ec%25a0%2595%25eb%25a6%25ac%2F&amp;format=xml">
+		<script type="text/javascript">var ajaxRevslider;jQuery(document).ready(function(){ajaxRevslider=function(obj){var content="";data={};data.action='revslider_ajax_call_front';data.client_action='get_slider_html';data.token='633d946658';data.type=obj.type;data.id=obj.id;data.aspectratio=obj.aspectratio;jQuery.ajax({type:"post",url:"https://hongong.hanbit.co.kr/wp-admin/admin-ajax.php",dataType:'json',data:data,async:false,success:function(ret,textStatus,XMLHttpRequest){if(ret.success==true)content=ret.data;},error:function(e){console.log(e);}});return content;};var ajaxRemoveRevslider=function(obj){return jQuery(obj.selector+" .rev_slider").revkill();};var extendessential=setInterval(function(){if(jQuery.fn.tpessential!=undefined){clearInterval(extendessential);if(typeof(jQuery.fn.tpessential.defaults)!=='undefined'){jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});}}},30);});</script>
+			<style>img#wpstats{display:none}</style>
+		
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to automatic -->
+<script data-cfasync="false" data-pagespeed-no-defer="">var dataLayer_content={"pagePostType":"post","pagePostType2":"single-post","pageCategory":["%ec%9d%bd%ec%9d%84%ea%b1%b0%eb%a6%ac"],"pageAttributes":["%eb%94%a5%eb%9f%ac%eb%8b%9d","deep-learning","%ed%8c%8c%ec%9d%b4%ed%86%a0%ec%b9%98","%ec%82%ac%ec%9d%b4%ed%82%b7%eb%9f%b0","%ed%95%9c%eb%b9%9b%eb%af%b8%eb%94%94%ec%96%b4","%ec%9d%b8%ea%b3%b5%ec%8b%a0%ea%b2%bd%eb%a7%9d","ai","%ed%85%90%ec%84%9c%ed%94%8c%eb%a1%9c","%ed%98%bc%ec%9e%90%ea%b3%b5%eb%b6%80%ed%95%98%eb%8a%94%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d%eb%94%a5%eb%9f%ac%eb%8b%9d","%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5","%ec%bc%80%eb%9d%bc%ec%8a%a4","artificial-intelligence","%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d","machine-learning"],"pagePostAuthor":"혼공족장"};dataLayer.push(dataLayer_content);</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T3RF5CP');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><style type="text/css">.recentcomments a{display:inline!important;padding:0!important;margin:0!important}</style><meta name="generator" content="Powered by Slider Revolution 5.4.8.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<script type="text/javascript">function setREVStartSize(e){try{e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if(c)jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})}catch(d){console.log("Failure at Presize of Slider:"+d)}};</script>
+
+		
+	<script type="text/javascript">var doc=document.documentElement;doc.setAttribute('data-useragent',navigator.userAgent);</script>
+
+	<meta name="naver-site-verification" content="01c29ed1852aecca7a48ac0c3e0869627bc512d8"><link href="./index_files/css(3)" rel="stylesheet">
+
+<link href="./index_files/css(4)" rel="stylesheet">
+<style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style><style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+
+<body class="post-template-default single single-post postid-1828 single-format-standard fusion-image-hovers fusion-body ltr fusion-sticky-header no-tablet-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-totop no-mobile-totop fusion-disable-outline fusion-sub-menu-fade mobile-logo-pos-left layout-wide-mode fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v2 avada-responsive avada-footer-fx-none fusion-search-form-classic fusion-avatar-square fusion-no-touch" style="height: auto;">
+	<a class="skip-link screen-reader-text" href="https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/#content">Skip to content</a>
+				<div id="wrapper" class="" style="height: auto;">
+		<div id="home" style="position:relative;top:-1px;"></div>
+		
+			<header class="fusion-header-wrapper fusion-is-sticky">
+				<div class="fusion-header-v2 fusion-logo-left fusion-sticky-menu- fusion-sticky-logo-1 fusion-mobile-logo-1  fusion-mobile-menu-design-modern">
+					
+<div class="fusion-secondary-header">
+	<div class="fusion-row">
+							<div class="fusion-alignright">
+				<div class="fusion-social-links-header"><div class="fusion-social-networks"><div class="fusion-social-networks-wrapper"><a class="fusion-social-network-icon fusion-tooltip fusion-facebook fusion-icon-facebook" style="color:#ffffff;" href="https://www.facebook.com/hanbitmedia" target="_blank" rel="nofollow" data-placement="bottom" data-title="Facebook" data-toggle="tooltip" title="" data-original-title="Facebook"><span class="screen-reader-text">Facebook</span></a><a class="fusion-social-network-icon fusion-tooltip fusion-blogger fusion-icon-blogger" style="color:#ffffff;" href="https://m.post.naver.com/my.nhn?memberNo=25379965" target="_blank" rel="nofollow" data-placement="bottom" data-title="Blogger" data-toggle="tooltip" title="" data-original-title="Blogger"><span class="screen-reader-text">Blogger</span></a><a class="fusion-social-network-icon fusion-tooltip fusion-youtube fusion-icon-youtube" style="color:#ffffff;" href="https://www.youtube.com/user/HanbitMedia93" target="_blank" rel="nofollow" data-placement="bottom" data-title="YouTube" data-toggle="tooltip" title="" data-original-title="YouTube"><span class="screen-reader-text">YouTube</span></a></div></div></div>			</div>
+			</div>
+</div>
+<div class="fusion-header-sticky-height" style="display: block; height: 65px; overflow: visible;"></div>
+<div class="fusion-header fusion-sticky-shadow" style="height: 65px; overflow: visible; top: 0px;">
+	<div class="fusion-row" style="padding-top: 0px; padding-bottom: 0px;">
+					<div class="fusion-logo" data-margin-top="25px" data-margin-bottom="25px" data-margin-left="0px" data-margin-right="0px" style="margin-top: 5px; margin-bottom: 5px;">
+			<a class="fusion-logo-link" href="https://hongong.hanbit.co.kr/">
+
+						<!-- standard logo -->
+			<script data-pagespeed-no-defer="">//<![CDATA[
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/','8Xxa2XQLv9',true,false,'k15eJVkCTPs');
+//]]></script><img src="./index_files/logo_250.png" srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/logo_250.png 1x, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/logo_250.png 2x" width="250" height="121" style="max-height:121px;height:auto;" alt="혼자 공부하는 책 Logo" data-retina_logo_url="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/logo_250.png" class="fusion-standard-logo" data-pagespeed-url-hash="2057778110" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+
+											<!-- mobile logo -->
+				<img src="./index_files/logo_250.png" srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/logo_250.png 1x, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/logo_250.png 2x" width="250" height="121" style="max-height:121px;height:auto;" alt="혼자 공부하는 책 Logo" data-retina_logo_url="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/logo_250.png" class="fusion-mobile-logo" data-pagespeed-url-hash="2057778110" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+			
+											<!-- sticky header logo -->
+				<img src="./index_files/logo_250.png" srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/logo_250.png 1x, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/logo_250.png 2x" width="250" height="121" style="max-height: 121px; height: 55px;" alt="혼자 공부하는 책 Logo" data-retina_logo_url="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/logo_250.png" class="fusion-sticky-logo" data-pagespeed-url-hash="2057778110" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-logo-height="60.5" data-logo-width="125">
+					</a>
+		</div>		<nav class="fusion-main-menu" aria-label="Main Menu"><ul id="menu-menu" class="fusion-menu"><li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom current-post-parent menu-item-has-children menu-item-31 fusion-dropdown-menu" data-item-id="31"><a href="https://hongong.hanbit.co.kr/c%EC%96%B8%EC%96%B4/" class="fusion-bar-highlight" aria-haspopup="true" style="height: 65px;"><span class="menu-text">동영상&amp;학습자료</span></a><ul role="menu" class="sub-menu"><li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29 fusion-dropdown-submenu"><a href="https://hongong.hanbit.co.kr/c%ec%96%b8%ec%96%b4/" class="fusion-bar-highlight"><span>C언어</span></a></li><li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27 fusion-dropdown-submenu"><a href="https://hongong.hanbit.co.kr/%ec%9e%90%eb%b0%94/" class="fusion-bar-highlight"><span>자바</span></a></li><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28 fusion-dropdown-submenu"><a href="https://hongong.hanbit.co.kr/%ed%8c%8c%ec%9d%b4%ec%8d%ac/" class="fusion-bar-highlight"><span>파이썬</span></a></li><li id="menu-item-1037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1037 fusion-dropdown-submenu"><a href="https://hongong.hanbit.co.kr/%ec%b2%ab-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d-with-%ed%8c%8c%ec%9d%b4%ec%8d%ac/" class="fusion-bar-highlight"><span>첫 프로그래밍 with 파이썬</span></a></li><li id="menu-item-1170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1170 fusion-dropdown-submenu"><a href="https://hongong.hanbit.co.kr/%ed%98%bc%ec%9e%90-%ea%b3%b5%eb%b6%80%ed%95%98%eb%8a%94-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d/" class="fusion-bar-highlight"><span>머신러닝+딥러닝</span></a></li><li id="menu-item-1194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1194 fusion-dropdown-submenu"><a href="https://hongong.hanbit.co.kr/%ec%9e%90%eb%b0%94%ec%8a%a4%ed%81%ac%eb%a6%bd%ed%8a%b8/" class="fusion-bar-highlight"><span>자바스크립트</span></a></li><li id="menu-item-1980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1980 fusion-dropdown-submenu"><a href="https://hongong.hanbit.co.kr/sql/" class="fusion-bar-highlight"><span>SQL</span></a></li><li id="menu-item-2178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2178 fusion-dropdown-submenu"><a href="https://hongong.hanbit.co.kr/r-%eb%8d%b0%ec%9d%b4%ed%84%b0-%eb%b6%84%ec%84%9d/" class="fusion-bar-highlight"><span>R 데이터 분석</span></a></li><li id="menu-item-2435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2435 fusion-dropdown-submenu"><a href="https://hongong.hanbit.co.kr/%ec%96%84%ed%8c%8d%ed%95%9c-%ec%bd%94%eb%94%a9-%ec%a7%80%ec%8b%9d/" class="fusion-bar-highlight"><span>얄팍한 코딩 지식</span></a></li><li id="menu-item-2685" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2685 fusion-dropdown-submenu"><a href="https://hongong.hanbit.co.kr/%ec%bb%b4%ed%93%a8%ed%84%b0-%ea%b5%ac%ec%a1%b0-%ec%9a%b4%ec%98%81%ec%b2%b4%ec%a0%9c/" class="fusion-bar-highlight"><span>컴퓨터 구조+운영체제</span></a></li><li id="menu-item-3018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3018 fusion-dropdown-submenu"><a href="https://hongong.hanbit.co.kr/%eb%8d%b0%ec%9d%b4%ed%84%b0-%eb%b6%84%ec%84%9d-with-%ed%8c%8c%ec%9d%b4%ec%8d%ac/" class="fusion-bar-highlight"><span>데이터 분석 with 파이썬</span></a></li><li id="menu-item-4125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4125 fusion-dropdown-submenu"><a href="https://hongong.hanbit.co.kr/%eb%84%a4%ed%8a%b8%ec%9b%8c%ed%81%ac/" class="fusion-bar-highlight"><span>네트워크</span></a></li></ul></li><li id="menu-item-919" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-919" data-item-id="919"><a href="https://hongong.hanbit.co.kr/category/%ec%9d%bd%ec%9d%84%ea%b1%b0%eb%a6%ac/" class="fusion-bar-highlight" style="height: 65px;"><span class="menu-text">읽을거리</span></a></li><li id="menu-item-903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-903" data-item-id="903"><a href="https://hongong.hanbit.co.kr/%ed%98%bc%ea%b3%b5-%ea%b2%8c%ec%8b%9c%ed%8c%90/" class="fusion-bar-highlight" style="height: 65px;"><span class="menu-text">혼공학습단</span></a></li><li id="menu-item-3077" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3077 fusion-last-menu-item" data-item-id="3077"><a href="https://hongong.hanbit.co.kr/%ed%98%bc%ea%b3%b5%ed%95%99%ec%8a%b5%eb%8b%a8-%ea%b3%a0%eb%af%bc%ec%83%81%eb%8b%b4%ec%86%8c/" class="fusion-bar-highlight" style="height: 65px;"><span class="menu-text">고민상담소 OPEN</span></a></li></ul></nav>	<div class="fusion-mobile-menu-icons">
+							<a href="https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/#" class="fusion-icon fusion-icon-bars" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu-menu"></a>
+		
+					<a href="https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/#" class="fusion-icon fusion-icon-search" aria-label="Toggle mobile search"></a>
+		
+		
+			</div>
+	
+<nav class="fusion-mobile-nav-holder fusion-mobile-menu-text-align-left" aria-label="Main Menu Mobile" style="display: none;"><ul id="mobile-menu-menu" class="fusion-menu"><li id="mobile-menu-item-31" class="fusion-mobile-nav-item menu-item-has-children" data-item-id="31" style=""><a href="https://hongong.hanbit.co.kr/c%EC%96%B8%EC%96%B4/" class="fusion-bar-highlight"><span class="menu-text">동영상&amp;학습자료</span></a><button href="#" aria-label="Open Sub Menu Of 동영상&amp;학습자료" aria-expanded="false" class="fusion-open-submenu"></button><ul role="menu" class="sub-menu" style="display: none;"><li id="mobile-menu-item-29" class="fusion-mobile-nav-item" style=""><a href="https://hongong.hanbit.co.kr/c%ec%96%b8%ec%96%b4/" class="fusion-bar-highlight"><span>C언어</span></a></li><li id="mobile-menu-item-27" class="fusion-mobile-nav-item" style=""><a href="https://hongong.hanbit.co.kr/%ec%9e%90%eb%b0%94/" class="fusion-bar-highlight"><span>자바</span></a></li><li id="mobile-menu-item-28" class="fusion-mobile-nav-item" style=""><a href="https://hongong.hanbit.co.kr/%ed%8c%8c%ec%9d%b4%ec%8d%ac/" class="fusion-bar-highlight"><span>파이썬</span></a></li><li id="mobile-menu-item-1037" class="fusion-mobile-nav-item" style=""><a href="https://hongong.hanbit.co.kr/%ec%b2%ab-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d-with-%ed%8c%8c%ec%9d%b4%ec%8d%ac/" class="fusion-bar-highlight"><span>첫 프로그래밍 with 파이썬</span></a></li><li id="mobile-menu-item-1170" class="fusion-mobile-nav-item" style=""><a href="https://hongong.hanbit.co.kr/%ed%98%bc%ec%9e%90-%ea%b3%b5%eb%b6%80%ed%95%98%eb%8a%94-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d/" class="fusion-bar-highlight"><span>머신러닝+딥러닝</span></a></li><li id="mobile-menu-item-1194" class="fusion-mobile-nav-item" style=""><a href="https://hongong.hanbit.co.kr/%ec%9e%90%eb%b0%94%ec%8a%a4%ed%81%ac%eb%a6%bd%ed%8a%b8/" class="fusion-bar-highlight"><span>자바스크립트</span></a></li><li id="mobile-menu-item-1980" class="fusion-mobile-nav-item" style=""><a href="https://hongong.hanbit.co.kr/sql/" class="fusion-bar-highlight"><span>SQL</span></a></li><li id="mobile-menu-item-2178" class="fusion-mobile-nav-item" style=""><a href="https://hongong.hanbit.co.kr/r-%eb%8d%b0%ec%9d%b4%ed%84%b0-%eb%b6%84%ec%84%9d/" class="fusion-bar-highlight"><span>R 데이터 분석</span></a></li><li id="mobile-menu-item-2435" class="fusion-mobile-nav-item" style=""><a href="https://hongong.hanbit.co.kr/%ec%96%84%ed%8c%8d%ed%95%9c-%ec%bd%94%eb%94%a9-%ec%a7%80%ec%8b%9d/" class="fusion-bar-highlight"><span>얄팍한 코딩 지식</span></a></li><li id="mobile-menu-item-2685" class="fusion-mobile-nav-item" style=""><a href="https://hongong.hanbit.co.kr/%ec%bb%b4%ed%93%a8%ed%84%b0-%ea%b5%ac%ec%a1%b0-%ec%9a%b4%ec%98%81%ec%b2%b4%ec%a0%9c/" class="fusion-bar-highlight"><span>컴퓨터 구조+운영체제</span></a></li><li id="mobile-menu-item-3018" class="fusion-mobile-nav-item" style=""><a href="https://hongong.hanbit.co.kr/%eb%8d%b0%ec%9d%b4%ed%84%b0-%eb%b6%84%ec%84%9d-with-%ed%8c%8c%ec%9d%b4%ec%8d%ac/" class="fusion-bar-highlight"><span>데이터 분석 with 파이썬</span></a></li><li id="mobile-menu-item-4125" class="fusion-mobile-nav-item" style=""><a href="https://hongong.hanbit.co.kr/%eb%84%a4%ed%8a%b8%ec%9b%8c%ed%81%ac/" class="fusion-bar-highlight"><span>네트워크</span></a></li></ul></li><li id="mobile-menu-item-919" class="fusion-mobile-nav-item fusion-mobile-current-nav-item" data-item-id="919" style=""><a href="https://hongong.hanbit.co.kr/category/%ec%9d%bd%ec%9d%84%ea%b1%b0%eb%a6%ac/" class="fusion-bar-highlight"><span class="menu-text">읽을거리</span></a></li><li id="mobile-menu-item-903" class="fusion-mobile-nav-item" data-item-id="903" style=""><a href="https://hongong.hanbit.co.kr/%ed%98%bc%ea%b3%b5-%ea%b2%8c%ec%8b%9c%ed%8c%90/" class="fusion-bar-highlight"><span class="menu-text">혼공학습단</span></a></li><li id="mobile-menu-item-3077" class="fusion-mobile-nav-item" data-item-id="3077" style=""><a href="https://hongong.hanbit.co.kr/%ed%98%bc%ea%b3%b5%ed%95%99%ec%8a%b5%eb%8b%a8-%ea%b3%a0%eb%af%bc%ec%83%81%eb%8b%b4%ec%86%8c/" class="fusion-bar-highlight"><span class="menu-text">고민상담소 OPEN</span></a></li></ul></nav>
+
+		
+<div class="fusion-clearfix"></div>
+<div class="fusion-mobile-menu-search" style="display: none;">
+	<form role="search" class="searchform fusion-search-form fusion-live-search" method="get" action="https://hongong.hanbit.co.kr/">
+	<div class="fusion-search-form-content">
+		<div class="fusion-search-field search-field">
+			<label><span class="screen-reader-text">Search for:</span>
+									<input type="text" value="" name="s" class="s" placeholder="Search ..." required="" aria-required="true" aria-label="Search ...">
+							</label>
+		</div>
+		<div class="fusion-search-button search-button">
+			<input type="submit" class="fusion-search-submit searchsubmit" value="">
+					</div>
+	</div>
+	</form>
+</div>
+			</div>
+</div>
+				</div>
+				<div class="fusion-clearfix"></div>
+			</header>
+					
+		
+		<div id="sliders-container">
+					</div>
+				
+		
+					<div class="fusion-page-title-bar fusion-page-title-bar-none fusion-page-title-bar-left">
+	<div class="fusion-page-title-row">
+		<div class="fusion-page-title-wrapper">
+			<div class="fusion-page-title-captions">
+
+				
+				
+			</div>
+
+												<div class="fusion-page-title-secondary">
+						<div class="fusion-breadcrumbs"><span><a href="https://hongong.hanbit.co.kr/"><span>Home</span></a></span><span class="fusion-breadcrumb-sep">/</span><span><a href="https://hongong.hanbit.co.kr/category/%ec%9d%bd%ec%9d%84%ea%b1%b0%eb%a6%ac/"><span>읽을거리</span></a></span><span class="fusion-breadcrumb-sep">/</span><span class="breadcrumb-leaf">[AI란 무엇인가] 인공지능 머신러닝 딥러닝 차이점 총정리</span></div>					</div>
+							
+		</div>
+	</div>
+</div>
+				
+				<main id="main" class="clearfix " style="">
+			<div class="fusion-row" style="">
+
+<section id="content" style="width: 100%;">
+				<div class="single-navigation clearfix">
+			<a href="https://hongong.hanbit.co.kr/%ea%b5%ad%eb%82%b4%ec%99%b8-it-%ea%b8%b0%ec%97%85-%ea%b8%b0%ec%88%a0-%eb%b8%94%eb%a1%9c%ea%b7%b8-%ed%81%90%eb%a0%88%ec%9d%b4%ec%85%98-%ec%82%ac%ec%9d%b4%ed%8a%b8-%eb%aa%a8%ec%9d%8c-zip/" rel="prev">Previous</a>			<a href="https://hongong.hanbit.co.kr/%ea%b5%ac%ea%b8%80-%ec%bd%94%eb%9e%a9-google-colab%ec%9c%bc%eb%a1%9c-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8-%eb%8f%8c%eb%a6%ac%ea%b8%b0/" rel="next">Next</a>		</div>
+	
+					<article id="post-1828" class="post post-1828 type-post status-publish format-standard has-post-thumbnail hentry category-31 tag-114 tag-deep-learning tag-157 tag-219 tag-208 tag-220 tag-ai tag-89 tag-221 tag-215 tag-110 tag-artificial-intelligence tag-113 tag-machine-learning">
+						
+																													<div class="fusion-flexslider flexslider post-slideshow fusion-post-slideshow">
+							<ul class="slides">
+																									<li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
+																																												<a href="./index_files/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점.png" data-rel="iLightbox[gallery1828]" title="" data-title="AI란 무엇인가 인공지능 머신러닝 딥러닝 차이점" data-caption="" aria-label="AI란 무엇인가 인공지능 머신러닝 딥러닝 차이점">
+													<span class="screen-reader-text">View Larger Image</span>
+													<img width="800" height="800" src="./index_files/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점.png" class="attachment-full size-full wp-post-image lazyautosizes lazyloaded" alt="AI란 무엇인가 인공지능 머신러닝 딥러닝 차이점" decoding="async" srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점-200x200.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점-400x400.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점-600x600.png 600w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점.png 800w" data-src="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점.png" data-srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점-200x200.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점-400x400.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점-600x600.png 600w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI란-무엇인가-인공지능-머신러닝-딥러닝-차이점.png 800w" data-sizes="auto" sizes="1000px" draggable="false">												</a>
+																														</li>
+
+																																																																																																																																																																											</ul>
+						<ol class="flex-control-nav flex-control-paging"></ol><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev flex-disabled" href="https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/#" tabindex="-1"></a></li><li class="flex-nav-next"><a class="flex-next flex-disabled" href="https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/#" tabindex="-1"></a></li></ul></div>
+																		
+															<h1 class="fusion-post-title">[AI란 무엇인가] 인공지능 머신러닝 딥러닝 차이점 총정리</h1>										<div class="post-content">
+				<h2><span style="font-size: 18pt;">✍<span style="color: #69238a;"><strong>두 줄 요약: ‘인공지능 &gt; 머신러닝 &gt; 딥러닝 순서로 범위가 크다’ </strong>라고 이해하시면 편합니다.</span><br>
+</span><span style="color: #69238a; font-size: 18pt;">인공지능은 머신러닝과 딥러닝을 포괄하는 개념!</span></h2>
+<p><span style="font-size: 14pt; color: #333333;">인공지능, 머신러닝, 딥러닝! 많이 들어봤지만 정확하게 개념이 잡혀있지 않은 분들을 위해 각각 무엇인지 알아보고 그 차이를 간단하게 정리해보겠습니다.</span></p>
+<p><span style="font-size: 14pt; color: #333333;">인공지능이 무엇이라고 설명하지 않아도 무엇인지 감이 오실 거예요.</span><br>
+<span style="font-size: 14pt; color: #333333;">우리가 사는 세상에는 이미 인공지능이 다양하게 생활 속 깊숙이 들어와 있거든요.</span></p>
+<p><span style="font-size: 14pt; color: #333333;">몇 가지 생활 속의 인공지능을 소개해 드리겠습니다.</span><br>
+<span style="font-size: 14pt; color: #333333;">이미 알고 있거나, 친숙한 서비스와 브랜드가 있을 거예요.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3><span style="font-size: 18pt;"><strong><span style="color: #69238a;">🧠생활 속 인공지능은 무엇이 있을까?</span></strong></span></h3>
+<ul>
+<li><span style="font-size: 14pt; color: #333333;"><strong>자율 주행 자동차:</strong> 테슬라, 구글, 현대자동차&amp;네이버<br>
+&nbsp;</span></li>
+<li><span style="font-size: 14pt; color: #333333;"><strong>스마트 스피커(AI 비서):</strong> 아마존, 구글, 바이두, 알리바바, 샤오미, KT, SK 텔레콤, 네이버, 카카오, 삼성전자 등<br>
+&nbsp;</span></li>
+<li><span style="font-size: 14pt; color: #333333;"><strong>챗봇:</strong> 카카오 상담톡, 네이버 톡톡, 라인, 채널톡 등<br>
+&nbsp;</span></li>
+<li><span style="font-size: 14pt; color: #333333;"><strong>인공지능 로봇:</strong> 청소 로봇, 교육용 로봇, 동반자 로봇, 운송 로봇<br>
+&nbsp;</span></li>
+<li><span style="font-size: 14pt; color: #333333;"><strong>이미지 인식:</strong> 페이스북, 구글, 마이크로소프트, 네이버<br>
+&nbsp;</span></li>
+<li><span style="font-size: 14pt; color: #333333;"><strong>개인화 추천:</strong> 넷플릭스,구글, 페이스북<br>
+&nbsp;</span></li>
+<li><span style="font-size: 14pt; color: #333333;"><strong>기계 번역:</strong> 구글, 네이버 파파고</span></li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+<h3>&nbsp;</h3>
+<p>&nbsp;</p>
+<h3><span style="font-size: 18pt;"><strong><span style="color: #69238a;">🧠간단히 살펴보는 인공지능의 역사</span></strong></span></h3>
+<p>&nbsp;</p>
+<p><img decoding="async" loading="lazy" class="alignnone wp-image-1810 lazyautosizes lazyloaded" src="./index_files/인공지능의-역사-2-1024x301.png" data-src="http://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-1024x301.png" alt="인공지능의 역사" width="949" height="279" srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-200x59.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-300x88.png 300w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-400x118.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-600x176.png 600w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-768x226.png 768w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-800x235.png 800w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-1024x301.png 1024w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-1200x353.png 1200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-1536x452.png 1536w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2.png 2033w" data-srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-200x59.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-300x88.png 300w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-400x118.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-600x176.png 600w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-768x226.png 768w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-800x235.png 800w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-1024x301.png 1024w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-1200x353.png 1200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-1536x452.png 1536w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2.png 2033w" data-sizes="auto" data-orig-sizes="(max-width: 949px) 100vw, 949px" sizes="949px"></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;">무려 2번의 힘든 시기(AI 겨울이라고 불러요.)를 보낸 인공지능 분야는 알파고가 등장하기 전까지는 소설이나 영화 속의 단골 소재로 쓰였어요. </span><span style="font-size: 14pt; color: #333333;"><strong>스티븐 스필버그 감독의 &lt;A.I.&gt;</strong>라든가, <strong>호아킨 피닉스가 열연한 &lt;<span style="text-decoration: underline;"><span style="color: #3366ff; text-decoration: underline;"><a style="color: #3366ff; text-decoration: underline;" href="https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%85%80_(%EC%98%81%ED%99%94)">her</a></span></span>&gt;</strong>를 보거나 들어보셨을 거예요.</span></p>
+<p><img decoding="async" loading="lazy" class="alignnone wp-image-1807 lazyautosizes lazyloaded" src="./index_files/AI-대표-영화-1024x736.png" data-src="http://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-1024x736.png" alt="AI 대표 영화" width="801" height="576" srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-200x144.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-300x216.png 300w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-400x288.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-600x431.png 600w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-768x552.png 768w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-800x575.png 800w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-1024x736.png 1024w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-1200x863.png 1200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화.png 1309w" data-srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-200x144.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-300x216.png 300w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-400x288.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-600x431.png 600w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-768x552.png 768w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-800x575.png 800w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-1024x736.png 1024w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화-1200x863.png 1200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/AI-대표-영화.png 1309w" data-sizes="auto" data-orig-sizes="(max-width: 801px) 100vw, 801px" sizes="801px"></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;">하지만 <span style="text-decoration: underline;"><span style="color: #3366ff; text-decoration: underline;"><a style="color: #3366ff; text-decoration: underline;" href="https://ko.wikipedia.org/wiki/%EC%95%8C%ED%8C%8C%EA%B3%A0_%EB%8C%80_%EC%9D%B4%EC%84%B8%EB%8F%8C"><strong>알파고</strong></a></span></span>가 등장한 이후, 인공지능은 좀 더 우리와 가까워진 현실 속의 기술로 발전하고 있습니다. 알파고가 등장한 게 2016년 3월이니 불과 5년 만에 우리 생활 속에 인공지능, 머신러닝, 딥러닝이라는 단어가 깊숙이 파고들었다고 할 수 있어요.</span></p>
+<p><span style="font-size: 14pt; color: #333333;">기나긴 인공지능의 역사를 여기에서 모두 나열하지는 않을 거예요. 오늘은 </span><span style="font-size: 14pt; color: #333333;">중요 사건을 요약한 그림을 보면서 인공지능, 머신러닝, 딥러닝이 무엇인지 알아보겠습니다.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1><strong><span style="color: #69238a;">🤖인공지능이란?</span></strong></h1>
+<p><img decoding="async" loading="lazy" class="lazyload alignnone wp-image-1810" src="./index_files/인공지능의-역사-2-1024x301.png" data-src="http://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-1024x301.png" alt="인공지능의 역사" width="949" height="279" srcset="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27949%27%20height%3D%27279%27%20viewBox%3D%270%200%20949%20279%27%3E%3Crect%20width%3D%27949%27%20height%3D%273279%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" data-srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-200x59.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-300x88.png 300w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-400x118.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-600x176.png 600w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-768x226.png 768w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-800x235.png 800w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-1024x301.png 1024w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-1200x353.png 1200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2-1536x452.png 1536w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능의-역사-2.png 2033w" data-sizes="auto" data-orig-sizes="(max-width: 949px) 100vw, 949px"></p>
+<p><span style="font-size: 14pt; color: #333333;">인공지능<sup>artificial intelligence</sup>은 사람처럼 학습하고 추론할 수 있는 지능을 가진 컴퓨터 시스템을 만드는 기술입니다. 인공지능의 역사는 약 80년 남짓 되었지만 인류는 훨씬 더 오래전부터 지능적인 시스템을 생각했습니다. 지능을 가진 로봇을 다룬 최초의 소설은 150년 전으로 거슬러 올라갑니다.</span></p>
+<p><span style="font-size: 14pt; color: #333333;">1943년 워런 매 컬러<sup>Warren McCulloch</sup>와 월터 피츠<sup>Walter Pitts</sup>는 최초로 뇌의 뉴런 개념을 발표했습니다. </span><span style="font-size: 14pt; color: #333333;">1950년에는 앨런 튜링 Alan Turing이 인공지능이 사람과 같은 지능을 가졌는지 테스트할 수 있는 유명한 튜링 테스트 Turing Test를 발표합니다. 많은 과학자가 참여한 1956년 다트머스 AI 콘퍼런스<sup>Dartmouth AI Conference</sup>에서는 인공지능에 대한 장밋빛 전망이 최고조에 도달했습니다. </span></p>
+<p><span style="font-size: 14pt; color: #333333;">이 시기를<strong><span style="color: #69238a;"> 인공지능 태동기👶</span></strong>라고 합니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;"><span style="font-weight: 400;">그 이후 <strong><span style="color: #69238a;">인공지능 황금기✨</span></strong>가 도래했습니다. 대표적으로 1957년 프랑크 로젠블라트</span><sup><span style="font-weight: 400;">Frank Rosenblatt</span></sup><span style="font-weight: 400;">가&nbsp;</span><span style="font-weight: 400;">로지스틱 회귀의 초기 버전으로 볼 수 있는 퍼셉트론</span><sup><span style="font-weight: 400;">Perceptron</span></sup><span style="font-weight: 400;">을 발표했습니다. </span><span style="font-weight: 400;">1959년에는 데이비드 허블</span><sup><span style="font-weight: 400;">David Hubel</span></sup><span style="font-weight: 400;">과 토르스텐 비셀</span><sup><span style="font-weight: 400;">Torsten Wiesel</span></sup><span style="font-weight: 400;">이 고양이를 사용해 시각 피질에 있는 뉴런 기능을 연구했습니다. 나중에 두 사람은 그 공로를 인정받아 노벨상을 수상했습니다.</span></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;"><span style="font-weight: 400;">하지만 </span><b>컴퓨터 성능의 한계로 인해 간단한 문제를 해결하는 것에 그치자 ❄</b><span style="font-weight: 400;"><strong><span style="color: #69238a;">첫 번째 AI 겨울<b>❄</b></span></strong>이 도래했습니다. 이 기간에는 인공지능에 대한 연구와 투자가 크게 감소했습니다.&nbsp;</span></span><span style="font-size: 14pt; color: #333333;"><span style="font-weight: 400;">그다음 전문가 시스템</span><span style="font-weight: 400;">expert system</span><span style="font-weight: 400;">이 등장했고 두 번째 AI 붐이 불었지만, 역시 또 한계를 드러내고 <b>❄</b><strong><span style="color: #69238a;">두 번째 AI 겨울<b>❄</b></span></strong>을 맞이합니다.</span></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;"><span style="font-weight: 400;">이 시기를 극복한 후에 인공지능은 다시 각광을 받기 시작했고 연구자들은 물론 대중 매체도 어느 때&nbsp;</span><span style="font-weight: 400;">보다 큰 관심을 가지게 되었습니다.&nbsp;</span></span><span style="font-size: 14pt; color: #333333;"><span style="font-weight: 400;">이제는 영화와 드라마, 소설 속에서 지능을 가진 컴퓨터 시스템이 등장하는 것이 흔합니다. </span><span style="font-weight: 400;">하지만 영화 속에 등장하는 인공지능을 실생활에서 체험하기는 아직 어렵습니다. </span></span><span style="font-weight: 400; font-size: 14pt; color: #333333;">스마트폰의 음성 비서와 간단한 대화를 이어가기도 아직은 어렵습니다. 영화와 현실이 차이 나는 것은 두 기술이 다르기 때문입니다.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1><strong><span style="color: #69238a;">👱‍♀️사만다와 🤖스카이넷</span></strong></h1>
+<p><img decoding="async" loading="lazy" class="lazyload alignnone size-large wp-image-1811" src="./index_files/사만다와-스카이넷-1024x293.png" data-src="http://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사만다와-스카이넷-1024x293.png" alt="사만다와 스카이넷" width="1024" height="293" srcset="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271024%27%20height%3D%27293%27%20viewBox%3D%270%200%201024%20293%27%3E%3Crect%20width%3D%271024%27%20height%3D%273293%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" data-srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사만다와-스카이넷-200x57.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사만다와-스카이넷-300x86.png 300w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사만다와-스카이넷-400x114.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사만다와-스카이넷-600x172.png 600w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사만다와-스카이넷-768x220.png 768w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사만다와-스카이넷-800x229.png 800w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사만다와-스카이넷-1024x293.png 1024w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사만다와-스카이넷-1200x343.png 1200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사만다와-스카이넷-1536x440.png 1536w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사만다와-스카이넷.png 1712w" data-sizes="auto" data-orig-sizes="(max-width: 1024px) 100vw, 1024px"></p>
+<p><span style="font-size: 14pt; color: #333333;">흔히 영화 속의 인공지능은 <span style="color: #69238a;"><strong>인공일반지능<sup>artificial general intelligence</sup> </strong></span>혹은 <strong><span style="color: #69238a;">강인공지능<sup>Strong AI</sup></span></strong>이라고 부르는 인공지능입니다. <span style="font-weight: 400;">영화 <strong>&lt;<span style="text-decoration: underline;"><span style="color: #3366ff; text-decoration: underline;"><a style="color: #3366ff; text-decoration: underline;" href="https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%85%80_(%EC%98%81%ED%99%94)">her</a></span></span>&gt;</strong>에 나온 인공지능 사만다를 기억하나요? 사만다의 진짜 이름은 OS1으로 이어서 설명할 강인공지능의 한 예입니다. 사만다</span>나 지금도 가장 사악한 인공지능으로 불리는 &lt;터미네이터&gt;의 <span style="text-decoration: underline;"><span style="color: #3366ff; text-decoration: underline;"><a style="color: #3366ff; text-decoration: underline;" href="https://namu.wiki/w/%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%84%B7"><strong>스카이넷</strong></a></span></span>처럼 사람과 구분하기 어려운 지능을 가진 컴퓨터 시스템이 인공일반지능입니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;"><span style="font-weight: 400;">반면 현실에서 우리가 마주하고 있는 인공지능은 <span style="color: #69238a;"><strong>약인공지능</strong></span></span><span style="color: #69238a;"><strong>Weak AI</strong></span><span style="font-weight: 400;">입니다.&nbsp;</span><span style="font-weight: 400;">약인공지능은 아직까지는 특정 분야에서 사람의 일을 도와주는 보조 역할만 가능합니다.&nbsp;</span></span><span style="font-weight: 400; font-size: 14pt; color: #333333;">예를 들면 음성 비서, 자율 주행 자동차, 음악 추천, 기계 번역 등입니다. 또 이세돌과 바둑 시합을 한 알파고가 좋은 예입니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;"><span style="font-weight: 400;">그럼 <span style="color: #69238a;">언제 강인공지능에 도달할 수 있을까요? </span></span><span style="font-weight: 400;">아직은 아무도 그 시기를 정확히 알 수 없지만 가능성에 대해서는 대체로 긍정적입니다. </span><span style="font-weight: 400;">그렇지만 가까운 미래에 이런 기술이 도래하리라 낙관하지는 않았으면 좋겠습니다.&nbsp;</span><span style="font-weight: 400;">여기에는 거품이 끼어 있을 수 있습니다. 앞서 언급했듯이 과거에도 이 분야에서는 성급하게 장밋빛 청사진을 제시하다가 실패한 경우가 있기 때문입니다.&nbsp;</span></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1><span style="color: #69238a;">🤖머신러닝이란?&nbsp;</span></h1>
+<p><span style="font-size: 14pt; color: #333333;"><span style="font-weight: 400;">머신러닝</span><sup><span style="font-weight: 400;">machine learning</span></sup><span style="font-weight: 400;">은 규칙을 일일이 프로그래밍하지 않아도 자동으로 데이터에서 규칙을 학습하는 알고리즘을 연구하는 분야입니다. 인공지능의 하위 분야 중에서 지능을 구현하기 위한 소프트웨어를 담당하는 핵심 분야입니다.</span></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;"><span style="font-weight: 400;">머신러닝은 통계학과 깊은 관련이 있습니다.&nbsp;</span><span style="font-weight: 400;">통계학에서 유래된 머신러닝 알고리즘이 많으며 통계학과 컴퓨터 과학 분야가 상호 작용하면서 발전하고 있습니다. 대표적인 오픈소스 통계 소프트웨어인 R에는 다양한 머신러닝 알고리즘이 구현되어 있습니다.</span></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;"><span style="font-weight: 400;">하지만 최근 머신러닝의 발전은 통계나 수학 이론보다 경험을 바탕으로 발전하는 경우도 많습니다.&nbsp;</span><span style="font-weight: 400;">컴퓨터 과학 분야가 이런 발전을 주도하고 있습니다.&nbsp;</span><span style="font-weight: 400;">컴퓨터 과학 분야의 </span><span style="color: #69238a;"><b>대표적인 머신러닝 라이브러리는 사이킷런</b><sup><b>scikit-learn</b></sup></span><span style="font-weight: 400;">입니다.</span></span></p>
+<p>&nbsp;</p>
+<p><img decoding="async" loading="lazy" class="lazyload alignnone size-full wp-image-1812" src="./index_files/사이킷런.png" data-src="http://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사이킷런.png" alt="scikit learn" width="512" height="343" srcset="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27512%27%20height%3D%27343%27%20viewBox%3D%270%200%20512%20343%27%3E%3Crect%20width%3D%27512%27%20height%3D%273343%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" data-srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사이킷런-200x134.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사이킷런-300x201.png 300w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사이킷런-400x268.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/사이킷런.png 512w" data-sizes="auto" data-orig-sizes="(max-width: 512px) 100vw, 512px"></p>
+<p><span style="font-size: 14pt; color: #333333;">사이킷런 라이브러리는 파이썬 API를 사용하는데 파이썬 언어는 배우기 쉽고 컴파일하지 않아도 되기 때문에 사용하기 편리합니다. 머신러닝 분야에 관심이 높아지면서 파이썬과 함께 사이킷런 라이브러리가 큰 인기를 얻고 있습니다. 이제는 사이킷런 외에 대표적인 다른 머신러닝 라이브러리를 찾아보기 힘듭니다. </span><span style="font-size: 14pt; color: #333333;">파이썬으로 print(‘Hello world’) 명령을 출력할 수 있다면 누구나 조금만 배워 머신러닝 프로그램을 만들 수 있습니다. 사이킷런 라이브러리에서 제공하는 클래스와 함수를 사용하여 필요한 작업을 수행할 수 있습니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;">당연하지만 사이킷런에 모든 머신러닝 알고리즘이 포함되어 있지는 않습니다. 연구자들은 새로운 알고리즘을 끊임없이 개발하여 발표합니다. 많은 사람이 이를 검증하고 사용해 본 다음 장단점을 파악하게 됩니다. 어느 정도 시간이 지나서 이런 알고리즘이 유익하다고 증명되어 널리 사용하게 되면 사이킷런 라이브러리 개발자들이 이 알고리즘을 라이브러리에 추가합니다. </span><span style="font-size: 14pt; color: #333333;">그러므로 머신러닝 라이브러리에 포함된 알고리즘들은 안정적이며 성능이 검증되어 있습니다. 비교적 안심하고 사용할 수 있는 이유입니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;">프로그래머가 직접 알고리즘을 구현하느라 힘들게 프로그램을 짤 필요가 없습니다. 어떻게 머신러닝 알고리즘을 선택하고 활용할 수 있는지를 먼저 생각해보는 것도 방법이 될 수 있는 것입니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;">사이킷런이 있기 전까지 머신러닝 기술은 대부분 폐쇄적인 코드와 라이브러리로 통용되었습니다. </span><span style="font-size: 14pt; color: #333333;">해당 분야에 대해 전문 교육을 이수하거나 비싼 비용을 지불하고 구매를 해야 했습니다. </span><span style="font-size: 14pt; color: #333333;">하지만 사이킷런과 같은 오픈소스 라이브러리의 발전 덕분에 머신러닝 분야는 말 그대로 폭발적으로 성장했습니다. </span><span style="font-size: 14pt; color: #333333;">파이썬 코드를 다룰 수 있다면 누구나 머신러닝 알고리즘을 무료로 손쉽게 제품에 활용할 수 있습니다. 덕분에 현대의 개발자는 머신러닝 알고리즘을 이해하고 사용할 수 있어야 합니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;">이런 현상으로 인해 새로운 이론과 기술은 직접 코드로 구현되고 통용되어야 그 가치를 입증할 수 있게 되었습니다. 코드로 구현되어 성능을 입증하지 못하면 탁상공론에 지나지 않고 사람들의 주목을 </span><span style="font-size: 14pt; color: #333333;">끌기 어렵습니다. 이런 기조는 딥러닝 분야에서 더욱 증폭되었습니다.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1><span style="color: #69238a;">🤖딥러닝이란?</span></h1>
+<p><span style="font-size: 14pt; color: #333333;">많은 머신러닝 알고리즘 중에 인공 신경망<sup>artificial neural network</sup>을 기반으로 한 방법들을 통칭하여 딥러닝 <sup>deep learning</sup>이라고 부릅니다. 종종 사람들은 인공 신경망과 딥러닝을 크게 구분하지 않고 사용합니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;">❄두 번째 AI 겨울❄ 기간에도 여전히 인공지능에 대해 연구한 사람들이 있었습니다. 이들의 연구가 차츰 빛을 보면서 다시 인공지능 기술이 주목받기 시작했습니다. </span><span style="font-size: 14pt; color: #333333;">1998년 <strong><span style="text-decoration: underline;"><span style="color: #3366ff; text-decoration: underline;"><a style="color: #3366ff; text-decoration: underline;" href="https://en.wikipedia.org/wiki/Yann_LeCun">얀 르쿤</a></span></span><span style="color: #3366ff;"><sup>Yann Lecun</sup></span></strong>이 신경망 모델을 만들어 손글씨 숫자를 인식하는 데 성공했습니다. 이 신경망의 이름을 LeNet-5라고 하며 최초의 합성곱 신경망입니다. </span></p>
+<p><span style="font-size: 14pt; color: #333333;">그 이후 2012년에<strong> <span style="text-decoration: underline;"><a href="https://en.wikipedia.org/wiki/Geoffrey_Hinton"><span style="color: #3366ff; text-decoration: underline;">제프리 힌턴</span></a></span><span style="color: #3366ff;"><sup>Geoffrey Hinton</sup></span></strong>의 팀이 이미지 분류 대회인 ImageNet에서 기존의 머신러닝 방법을 누르고 압도적인 성능으로 우승했습니다. </span><span style="font-size: 14pt; color: #333333;">힌턴이 사용한 모델의 이름은 AlexNet이며 역시 합성곱 신경망을 사용했습니다. 이때부터 이미지 분류 작업에 합성곱 신경망이 널리 사용되기 시작했습니다.</span></p>
+<p>&nbsp;</p>
+<p><img decoding="async" loading="lazy" class="lazyload alignnone size-full wp-image-1820" src="./index_files/알파고.png" data-src="http://hongong.hanbit.co.kr/wp-content/uploads/2021/10/알파고.png" alt="알파고" width="383" height="384" srcset="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27383%27%20height%3D%27384%27%20viewBox%3D%270%200%20383%20384%27%3E%3Crect%20width%3D%27383%27%20height%3D%273384%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" data-srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/알파고-66x66.png 66w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/알파고-150x150.png 150w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/알파고-200x201.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/알파고-300x300.png 300w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/알파고.png 383w" data-sizes="auto" data-orig-sizes="(max-width: 383px) 100vw, 383px"> <img decoding="async" loading="lazy" class="lazyload alignnone size-full wp-image-1821" src="./index_files/혼자-공부하는-머신러닝-딥러닝.png" data-src="http://hongong.hanbit.co.kr/wp-content/uploads/2021/10/혼자-공부하는-머신러닝-딥러닝.png" alt="혼자 공부하는 머신러닝 딥러닝" width="512" height="221" srcset="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27512%27%20height%3D%27221%27%20viewBox%3D%270%200%20512%20221%27%3E%3Crect%20width%3D%27512%27%20height%3D%273221%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" data-srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/혼자-공부하는-머신러닝-딥러닝-200x86.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/혼자-공부하는-머신러닝-딥러닝-300x129.png 300w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/혼자-공부하는-머신러닝-딥러닝-400x173.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/혼자-공부하는-머신러닝-딥러닝.png 512w" data-sizes="auto" data-orig-sizes="(max-width: 512px) 100vw, 512px"></p>
+<div class="vlp-link-container vlp-template-default ">
+	<a href="https://www.youtube.com/watch?v=kTRpXGaLl8s&amp;ab_channel=%EB%B0%94%EB%91%91BADUKTV" class="vlp-link" title="[이세돌vs알파고] 이세돌 9단이 알파고에게 유일하게 이긴 제 4국" rel="nofollow" target="_blank"></a>		<div class="vlp-link-image-container">
+		<div class="vlp-link-image">
+			<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://img.youtube.com/vi/kTRpXGaLl8s/maxresdefault.jpg" style="max-width: 150px; max-height: 150px" data-pagespeed-url-hash="31059146" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">		</div>
+	</div>
+		<div class="vlp-link-text-container">
+				<div class="vlp-link-title">
+			[이세돌vs알파고] 이세돌 9단이 알파고에게 유일하게 이긴 제 4국		</div>
+						<div class="vlp-link-summary">
+			GoogleDeepMindChallengeMatch 이세돌vs알파고 제4국 ep3 20160313		</div>
+			</div>
+</div>
+
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;">국내에서는 2016년 이세돌과 알파고의 대국으로 인해 딥러닝에 대한 관심이 크게 높아졌습니다. 하지만 앞에서 소개했듯이 딥러닝은 2010년 초반부터 이렇게 새로운 혁명을 준비하고 있었습니다. </span><span style="font-size: 14pt; color: #333333;">LeNet-5나 AlexNet과 같이 인공 신경망이 이전과 다르게 놀라운 성능을 달성하게 된 원동력으로 크게 세 가지를 꼽을 수 있습니다.</span></p>
+<p><img decoding="async" loading="lazy" class="lazyload alignnone wp-image-1816" src="./index_files/tensorflow-pytorch-1024x376.png" data-src="http://hongong.hanbit.co.kr/wp-content/uploads/2021/10/tensorflow-pytorch-1024x376.png" alt="tensorflow pytorch" width="599" height="220" srcset="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27599%27%20height%3D%27220%27%20viewBox%3D%270%200%20599%20220%27%3E%3Crect%20width%3D%27599%27%20height%3D%273220%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" data-srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/tensorflow-pytorch-200x73.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/tensorflow-pytorch-300x110.png 300w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/tensorflow-pytorch-400x147.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/tensorflow-pytorch-600x220.png 600w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/tensorflow-pytorch-768x282.png 768w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/tensorflow-pytorch-800x293.png 800w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/tensorflow-pytorch-1024x376.png 1024w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/tensorflow-pytorch-1200x440.png 1200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/tensorflow-pytorch.png 1254w" data-sizes="auto" data-orig-sizes="(max-width: 599px) 100vw, 599px" data-pagespeed-url-hash="822690673" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></p>
+<p><span style="font-size: 14pt; color: #333333;"><span style="font-weight: 400;">복잡한 알고리즘을 훈련할 수 있는 풍부한 데이터와 컴퓨터 성능의 향상, 그리고 혁신적인 알고리즘&nbsp;</span><span style="font-weight: 400;">개발입니다. 인공지능에 대한 과거의 시도와 달리 최근의 딥러닝 발전은 매우 긍정적이고 지속 가능해 보입니다. </span><span style="font-weight: 400;">이런 오픈소스 머신러닝 라이브러리의 영향력을 눈치챘던 것일까요. 2015년 구글은 딥러닝 라이브러리인 텐서플로</span><sup><span style="font-weight: 400;">TensorFlow</span></sup><span style="font-weight: 400;">를 오픈소스로 공개했습니다. </span><span style="font-weight: 400;">텐서플로는 공개와 동시에 큰 인기를 얻었으며 아직까지 가장 널리 사용되는 딥러닝 라이브러리입니다. 페이스북도 2018년 파이토치</span><sup><span style="font-weight: 400;">PyTorch</span></sup><span style="font-weight: 400;"> 딥러닝 라이브러리를 오픈소스로 공개했습니다.&nbsp; </span></span></p>
+<p><span style="font-weight: 400; font-size: 14pt; color: #333333;">이 라이브러리들의 공통점은 인공 신경망 알고리즘을 전문으로 다루고 있다는 것과 모두 사용하기 쉬운 파이썬 API를 제공한다는 점입니다.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><strong><span style="font-size: 18pt; color: #69238a;">🙋‍♂️인공지능, 머신러닝, 딥러닝의 차이점은 무엇입니까?</span></strong></h2>
+<h2><span style="font-size: 18pt;"><strong><span style="color: #69238a;">👨‍🏫 범위에 차이가 있습니다. 인공지능이 범위가 가장 크고, 머신러닝이 중간이며, 딥러닝이 가장 작습니다.</span></strong></span></h2>
+<p><img decoding="async" loading="lazy" class="lazyload alignnone wp-image-1817" src="./index_files/인공지능-머신러닝-딥러닝.png" data-src="http://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능-머신러닝-딥러닝.png" alt="인공지능 머신러닝 딥러닝" width="650" height="363" srcset="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27650%27%20height%3D%27363%27%20viewBox%3D%270%200%20650%20363%27%3E%3Crect%20width%3D%27650%27%20height%3D%273363%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" data-srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능-머신러닝-딥러닝-200x112.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능-머신러닝-딥러닝-300x168.png 300w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능-머신러닝-딥러닝-400x223.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/인공지능-머신러닝-딥러닝.png 512w" data-sizes="auto" data-orig-sizes="(max-width: 650px) 100vw, 650px"></p>
+<p><span style="font-weight: 400; color: #333333;">△<strong>그림 1-1</strong> 인공지능 &gt; 머신러닝 &gt; 딥러닝&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; color: #333333;"><span style="font-weight: 400;">지금까지 인공지능, 머신러닝, 딥러닝에 대하여 간단하게 알아보았습니다.&nbsp; </span><span style="font-weight: 400;">그럼 인공지능과 인공신경망은 어떻게 다른 것일까요?&nbsp; </span><span style="font-weight: 400;">머신러닝과 딥러닝은요?&nbsp;</span></span></p>
+<p><span style="font-size: 14pt; color: #333333;"><span style="font-weight: 400;">인공지능은 컴퓨터가 인간의 사고를 모방하는 모든 것을 뜻한다고 보고 있습니다.&nbsp;</span><span style="font-weight: 400;">그리고 머신러닝</span><sup><span style="font-weight: 400;">machine learning</span></sup><span style="font-weight: 400;">은 컴퓨터가 스스로 학습하는 것을 말합니다. 특히 주어진 데이터를 이용해서 말이죠.&nbsp;</span><span style="font-weight: 400;">마지막으로 딥러닝</span><sup><span style="font-weight: 400;">deep learning</span></sup><span style="font-weight: 400;">으로 대표되는 인공신경망</span><sup><span style="font-weight: 400;">artificial neural network</span></sup><span style="font-weight: 400;">은 머신러닝을 구현하는 기술의 하나로, 인간 뇌의 동작 방식에서 착안하여 개발한 학습 방법이라고 할 수 있겠습니다.&nbsp; </span><span style="font-weight: 400;">그래서 인공지능이 범위가 가장 크고, 머신러닝이 중간이며, 딥러닝이 가장 작습니다.&nbsp;</span></span></p>
+<p>&nbsp;</p>
+<p><img decoding="async" loading="lazy" class="lazyload alignnone wp-image-1818" src="./index_files/규칙기반과-머신러닝-기반의-바나나-인식.png" data-src="http://hongong.hanbit.co.kr/wp-content/uploads/2021/10/규칙기반과-머신러닝-기반의-바나나-인식.png" alt="규칙기반과 머신러닝 기반의 바나나 인식" width="650" height="301" srcset="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27650%27%20height%3D%27301%27%20viewBox%3D%270%200%20650%20301%27%3E%3Crect%20width%3D%27650%27%20height%3D%273301%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" data-srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/규칙기반과-머신러닝-기반의-바나나-인식-200x93.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/규칙기반과-머신러닝-기반의-바나나-인식-300x139.png 300w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/규칙기반과-머신러닝-기반의-바나나-인식-400x185.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/규칙기반과-머신러닝-기반의-바나나-인식.png 512w" data-sizes="auto" data-orig-sizes="(max-width: 650px) 100vw, 650px"></p>
+<p><span style="color: #333333;"><span style="font-weight: 400;">△</span><b>그림 1-2</b><span style="font-weight: 400;"> 규칙기반과 머신러닝 기반의 바나나 인식</span></span></p>
+<p>&nbsp;</p>
+<p><span style="color: #333333; font-size: 14pt;"><span style="font-weight: 400;">이 3가지 용어의 차이점을 설명하기 위해서 간단하게 예를 들어보겠습니다. [그림 1-2]의 위쪽처럼 기존의 인공지능인 규칙기반 인공지능<sup>rule-based AI</sup>이 바나나를 인식하도록 하려면 인간이 컴퓨터에 <strong>바나나를&nbsp;</strong></span><span style="font-weight: 400;"><strong>식별하는 특징<sup>feature</sup></strong>을 가르쳐줘야 했습니다.&nbsp; </span></span><span style="font-weight: 400; color: #333333; font-size: 14pt;"><strong>“길고, 노란색이고, 약간 휜 물체면 바나나야”</strong>라는 식이죠.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400; color: #333333; font-size: 14pt;">하지만 머신러닝의 학습 방식은 [그림 1-2]의 아래쪽과 같습니다. 바나나 사진을 주고 “이것이 바나나야”라고 하면 컴퓨터가 스스로 바나나의 특징을 학습합니다. “음. 바나나는 길고, 노란색이고, 휜 것이군”이라고 말이죠.</span></p>
+<p>&nbsp;</p>
+<table style="border-collapse: collapse; width: 81.1546%; height: 70px;">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: #f7f7f7;"><span style="font-size: 14pt;">🙋‍♀️<span style="color: #69238a;"><strong>여기서 잠깐)</strong> <span style="font-weight: 400;">머신러닝에는 다양한 방법이 있지만, 간략히 설명하기 위해 약간 비약하였습니다.<br>
+</span></span></span><span style="font-size: 14pt;"><span style="color: #69238a;"><span style="font-weight: 400;">참고로 </span><span style="font-weight: 400;">이러한 방법을 end-to-end 학습이라고 하며, 딥러닝이 바로 이러한 방식으로 학습합니다</span></span></span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="color: #333333; font-size: 14pt;"><span style="font-weight: 400;">그러면 인공지능에 <strong>썰어놓은 바나나를 추가로 인식</strong>시키려면 어떻게 해야 할까요?&nbsp;</span><span style="font-weight: 400;">규칙기반 인공지능은 앞의 규칙에 “하얀색이고, 납작하고, 둥글다”라는 특징을 수작업으로 추가해줘야 합니다. 하지만 머신러닝은 썰어놓은 바나나 사진만 입력해주면 알아서 새로운 특징을 학습하고 인식할 수 있습니다.&nbsp;</span></span></p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp;<img decoding="async" loading="lazy" class="lazyload alignnone wp-image-1819" src="./index_files/썰어놓은-바나나를-인식하는-방법.png" data-src="http://hongong.hanbit.co.kr/wp-content/uploads/2021/10/썰어놓은-바나나를-인식하는-방법.png" alt="썰어놓은 바나나를 인식하는 방법" width="651" height="366" srcset="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27651%27%20height%3D%27366%27%20viewBox%3D%270%200%20651%20366%27%3E%3Crect%20width%3D%27651%27%20height%3D%273366%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" data-srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/썰어놓은-바나나를-인식하는-방법-200x113.png 200w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/썰어놓은-바나나를-인식하는-방법-300x169.png 300w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/썰어놓은-바나나를-인식하는-방법-400x225.png 400w, https://hongong.hanbit.co.kr/wp-content/uploads/2021/10/썰어놓은-바나나를-인식하는-방법.png 512w" data-sizes="auto" data-orig-sizes="(max-width: 651px) 100vw, 651px"></p>
+<p><span style="color: #333333;"><span style="font-weight: 400;">△</span><b>그림 1-3</b><span style="font-weight: 400;"> 썰어놓은 바나나를 인식하는 방법</span></span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400; font-size: 14pt; color: #333333;">즉, 풀고자 하는 문제가 복잡할수록 규칙기반 인공지능보다는 머신러닝을 이용한 인공지능이 문제를 훨씬 더 효율적으로 해결할 수 있으리라 예상할 수 있습니다. 인간이 모든 특징을 분석하고 알고리즘을 만들어서 입력하는 것보다, 컴퓨터가 직접 특징을 추출하는 쪽이 더 빠르고 정확하다면 말이죠.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><strong><span style="font-size: 18pt; color: #69238a;">🙋‍♂️지금 인공지능, 머신러닝, 딥러닝을 배워도 되나요?</span></strong></h2>
+<h2><strong><span style="color: #69238a;">👨‍🏫 <span style="font-size: 18pt;">지금이 인공지능을 배우기 가장 좋은 때라고 생각합니다.</span></span></strong></h2>
+<p>&nbsp;</p>
+<p><span style="color: #333333; font-size: 14pt;"><span style="font-weight: 400;">컴퓨터 과학은 추상화의 학문이라고 해도 과언이 아닙니다. 더군다나 요즘엔 좀처럼 실제 컴퓨터를 조립할 기회도 많지 않습니다. 예전에 다양한 주변 장치가 담당했던 일을 하나의 칩이 대신합니다.&nbsp; </span><span style="font-weight: 400;">스마트폰은 이런 경향의 절정에 있습니다. 그러다 보니 피부로 느끼는 추상화는 더욱더 심하죠.&nbsp; </span><span style="font-weight: 400;">이런 추상화의 단점은 개념을 모호하게 만들고 외부에서 접근하기 어렵게 만든다는 점입니다.&nbsp;</span></span><span style="font-weight: 400; color: #333333; font-size: 14pt;">눈에 보이지 않는 소프트웨어만으로 개념을 이해하고 알고리즘을 풀어내야 하는 일이 처음 배우는 사람에게 특히 어렵습니다.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="color: #333333; font-size: 14pt;"><span style="font-weight: 400;">아마 데이터 마이닝</span><sup><span style="font-weight: 400;">data mining</span></sup><span style="font-weight: 400;">, 빅데이터</span><sup><span style="font-weight: 400;">big data</span></sup><span style="font-weight: 400;">, 데이터 과학</span><sup><span style="font-weight: 400;">data science</span></sup><span style="font-weight: 400;"> 와 같은 용어를 들어 보셨을지도 모릅니다. 이런 용어는 기술적을 설명하는 마케팅에 가깝습니다. 용어 차이를 명확히 구분하기 힘들고 그 안에 속한 기술을 정확히 정의하기도 어렵습니다.&nbsp;</span></span></p>
+<p>&nbsp;</p>
+<p><span style="color: #333333; font-size: 14pt;"><span style="font-weight: 400;">사실 이런 기술은 모두 인공지능의 큰 범주 안에 포함됩니다. </span><span style="font-weight: 400;">시대와 트렌드에 따라 옷을 바꿔 입었지만 큰 흐름은 모두 일맥상</span></span><span style="color: #333333; font-size: 14pt;"><span style="font-weight: 400;">통하죠.&nbsp; </span><span style="font-weight: 400;">그리고 이제 이런 기술이 머신러닝과 딥러닝에 이르러 절정을 이루고 있습니다.&nbsp; </span><span style="font-weight: 400;">3번째 전성기를 맞은 지금이 이 기술을 배우기 가장 좋은 때라는 것은 의심의 여지가 없습니다.&nbsp;</span></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><span style="color: #69238a;"><strong><span style="font-size: 18pt;">🔑 꼭 알아두면 좋은 키워드 정리!</span></strong></span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-size: 14pt;"><span style="color: #69238a;"><b>인공지능(Artificial intelligence)</b></span><span style="font-weight: 400;"><span style="color: #69238a;">:</span> <span style="color: #333333;">인공지능은 사람처럼 학습하고 추론할 수 있는 지능을 가진 시스템을 만드는 기술입니다. 인공지능은 강인공지능과 약인공지능으로 나눌 수 있습니다.</span><br>
+&nbsp;</span></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-size: 14pt;"><span style="color: #69238a;"><b>머신러닝(Machine Learning)</b></span><span style="font-weight: 400;">: <span style="color: #333333;">규칙을 프로그래밍하지 않아도 자동으로 데이터에서 규칙을 학습하는 알고리즘을 연구하는 분야입니다. 사이킷런이 대표적인 라이브러리입니다.</span><br>
+&nbsp;</span></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-size: 14pt;"><b><span style="color: #69238a;">사이킷런(scikit-learn):</span> </b><span style="font-weight: 400;"><span style="color: #333333;">2007년 구글 썸머 코드에서 처음 구현되었으며, 가장 널리 사용되는&nbsp; 머신러닝 패키지 중 하나입니다.&nbsp;</span><br>
+&nbsp;</span></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-size: 14pt;"><b><span style="color: #69238a;">인공 신경망(Artificial Neural Network):</span> </b><span style="font-weight: 400;"><span style="color: #333333;">생물학적 뉴런에서 영감을 받아 만든 머신러닝 알고리즘입니다. 신경망은 기존의 머신러닝 알고리즘으로 다루기 어려웠던 이미지, 음성, 텍스트 분야에서 뛰어난 성능을 발휘하면서 크게 주목 받고 있으며 종종 딥러닝이라고도 부릅니다.</span><br>
+</span></span>&nbsp;</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-size: 14pt;"><span style="color: #69238a;"><b>딥러닝(Deap learnging)</b></span><span style="font-weight: 400;"><span style="color: #69238a;">:</span> <span style="color: #333333;">딥러닝은 인공 신경망이라고도 하며, 텐서플로와 파이토치가 대표적인 라이브러리입니다.</span><br>
+&nbsp;</span></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-size: 14pt;"><b><span style="color: #69238a;">텐서플로(TensorFlow):</span> </b><span style="color: #333333;"><span style="font-weight: 400;">구글이 만든 딥러닝 라이브러리로 CPU와 GPU를 사용해 인공신경망 모델을 효율적으로 훈련하며 모델 구축과 서비스에 필요한 다양한 도구를 제공합니다.텐서플로 2.0부터는 신경망 모델을 빠르게 구성할 수 있는 케라스</span><sup><span style="font-weight: 400;">Keras</span></sup></span><span style="font-weight: 400;"><span style="color: #333333;">를 핵심 API로 채택하였습니다. 케라스를 사용하면 간단한 모델에서 아주 복잡한 모델까지 비교적 손쉽게 만들 수 있습니다.&nbsp;&nbsp;</span><br>
+&nbsp;</span></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-size: 14pt;"><span style="color: #69238a;"><b>파이토치(Pytorch): </b></span><span style="font-weight: 400;"><span style="color: #333333;">Facebook에서 개발하여 2016년 공개한 파이썬 기반의 오픈소스 머신러닝 라이브러리를 말합니다.&nbsp;&nbsp;</span><br>
+</span></span>&nbsp;</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-size: 14pt;"><span style="color: #69238a;"><b>케라스(Keras)</b></span><span style="font-weight: 400;"><span style="color: #69238a;">:</span> <span style="color: #333333;">다양한 인공지능 엔진에서 지원하며, 2015년에 공개된 파이썬 기반의 오픈소스 신경망 라이브러리입니다. 텐서플로, 파이토치와 함께 널리 사용되고 있습니다.&nbsp;</span></span></span></li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><span style="color: #69238a;"><strong><span style="font-size: 18pt;">👥이 글에서 소개한 두 명의 딥러닝 구루</span></strong></span></h2>
+<p><span style="color: #333333; font-size: 14pt;">👨<span style="color: #69238a;"><strong>제프리 힌턴:</strong></span> 1947년 태어난 제프리 힌턴은<span style="font-weight: 400;"> 인공지능 분야를 개척한 영국 출신의 인지심리학자이자 컴퓨터 과학자입니다. 1978년 에딘버러에서 AI 박사 학위를 받았습니다. 현재 캐나다 토론토 대학교의 교수이며, 구글(VP Engineering fellow)에서 겸직하고 있습니다.</span></span></p>
+<p><span style="font-size: 14pt;"><span style="color: #69238a;"><strong>👨얀 르쿤: </strong></span><span style="color: #333333;">1960년 태어난 얀 르쿤은 </span><span style="font-weight: 400;"><span style="color: #333333;">프랑스계 미국인으로 기계학습, 컴퓨터비전, 모바일 로보틱스 그리고 신경망을 연구하고 있습니다. 현재 페이스북 AI를 이끌고 있습니다</span>. </span></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt;"><span style="font-weight: 400; color: #333333;">위 내용은 <strong>&lt;</strong></span><strong><span style="text-decoration: underline;"><span style="color: #3366ff; text-decoration: underline;"><a style="color: #3366ff; text-decoration: underline;" href="https://www.hanbit.co.kr/store/books/look.php?p_code=B2002963743">혼자 공부하는 머신러닝+딥러닝</a></span></span></strong><span style="font-weight: 400; color: #333333;"><strong>&gt;</strong>과 <strong>&lt;</strong></span><strong><span style="text-decoration: underline;"><span style="color: #3366ff; text-decoration: underline;"><a style="color: #3366ff; text-decoration: underline;" href="https://www.hanbit.co.kr/store/books/look.php?p_code=B7257101308">골빈해커의 3분 딥러닝</a></span></span></strong><span style="font-weight: 400; color: #333333;"><strong>&gt;</strong>을&nbsp; 재구성하여 작성 되었습니다.</span></span></p>
+<p>&nbsp;</p>
+<p><img decoding="async" loading="lazy" class="lazyload wp-image-1543 alignleft" src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27300%27%20height%3D%27410%27%20viewBox%3D%270%200%20300%20410%27%3E%3Crect%20width%3D%27300%27%20height%3D%273410%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" data-src="http://hongong.hanbit.co.kr/wp-content/uploads/2021/08/혼자-공부하는-머신러닝-딥러닝-749x1024.jpg" alt="혼자 공부하는 머신러닝 딥러닝" width="300" height="410" data-pagespeed-url-hash="851249010" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></p>
+<p><span style="color: #333333;"><span style="font-weight: 400; font-size: 14pt;">이 책을 통해 인공지능의 추상화를 걷어내고 직접 코딩하면서 머신러닝과 딥러닝의 실체가 무엇인지&nbsp;</span><span style="font-weight: 400; font-size: 14pt;">배워 보세요.&nbsp;</span></span></p>
+<p><span style="font-size: 14pt;"><span style="font-weight: 400; color: #333333;">모든 </span><span style="text-decoration: underline; color: #3366ff;"><strong><a style="color: #3366ff; text-decoration: underline;" href="https://www.hanbit.co.kr/lib/examFileDown.php?hed_idx=5179">예제</a></strong></span><span style="font-weight: 400; color: #333333;">는 공개 되어 있으며, 온라인 환경인 </span><span style="text-decoration: underline; color: #3366ff;"><strong><a style="color: #3366ff; text-decoration: underline;" href="https://colab.research.google.com/">구글 코랩</a></strong></span><span style="font-weight: 400; color: #333333;">에서 실습합니다.&nbsp;</span></span><span style="font-weight: 400; font-size: 14pt; color: #333333;">회귀 알고리즘부터 시작해 텐서플로를 사용한 딥러닝 알고리즘을 다룹니다.</span></p>
+<p><span style="font-weight: 400; font-size: 14pt; color: #333333;">기본적인 인공 신경망에서부터 이미지 처리 분야에 뛰어난 합성곱 신경망과 순차 데이터 처리에 뛰어난 순환 신경망까지 원리를 터득하고 직접 모델을 구현하여 예제를 풀어 보실 수 있습니다.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><strong><span style="text-decoration: underline; color: #3366ff; font-size: 14pt;">📘<a style="color: #3366ff; text-decoration: underline;" href="https://hongong.hanbit.co.kr/%ed%98%bc%ec%9e%90-%ea%b3%b5%eb%b6%80%ed%95%98%eb%8a%94-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d/">용어 노트와 실습예제 다운로드</a></span></strong></p>
+<p><strong><span style="text-decoration: underline; color: #3366ff; font-size: 14pt;">👀<a style="color: #3366ff; text-decoration: underline;" href="https://www.hanbit.co.kr/store/books/look.php?p_code=B2002963743">도서 자세히보기</a></span></strong><br>
+<strong><span style="text-decoration: underline; color: #3366ff; font-size: 14pt;">👨‍💻<a style="color: #3366ff; text-decoration: underline;" href="https://www.youtube.com/watch?v=J6wehCO_c58&amp;list=PLVsNizTWUw7HpqmdphX9hgyWl15nobgQX&amp;ab_channel=%ED%95%9C%EB%B9%9B%EB%AF%B8%EB%94%94%EC%96%B4">유튜브 무료 강의</a></span></strong></p>
+<ul>
+<li style="list-style-type: none;">&nbsp;</li>
+</ul>
+<div class="post-views content-post post-1828 entry-meta">
+				<span class="post-views-icon dashicons dashicons-chart-bar"></span> <span class="post-views-label">Post Views:</span> <span class="post-views-count">139,549</span>
+			</div>							</div>
+
+												<div class="fusion-meta-info"><div class="fusion-meta-info-wrapper">By <span><a href="https://hongong.hanbit.co.kr/author/hongong/" title="혼공족장 작성 글" rel="author">혼공족장</a></span><span class="fusion-inline-sep">|</span><span>10월 5th, 2021</span><span class="fusion-inline-sep">|</span><a href="https://hongong.hanbit.co.kr/category/%ec%9d%bd%ec%9d%84%ea%b1%b0%eb%a6%ac/" rel="category tag">읽을거리</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/#comments">5 Comments</a></span></div></div>													<div class="fusion-sharing-box fusion-single-sharing-box share-box">
+		<h4>Share This Story, Choose Your Platform!</h4>
+		<div class="fusion-social-networks"><div class="fusion-social-networks-wrapper"><a class="fusion-social-network-icon fusion-tooltip fusion-facebook fusion-icon-facebook" style="color:#bebdbd;" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhongong.hanbit.co.kr%2Fai-%25eb%25ac%25b4%25ec%2597%2587%25ec%259d%25b8%25ea%25b0%2580-%25ec%259d%25b8%25ea%25b3%25b5%25ec%25a7%2580%25eb%258a%25a5-%25eb%25a8%25b8%25ec%258b%25a0%25eb%259f%25ac%25eb%258b%259d-%25eb%2594%25a5%25eb%259f%25ac%25eb%258b%259d-%25ec%25b0%25a8%25ec%259d%25b4%25ec%25a0%2590-%25ec%25b4%259d%25ec%25a0%2595%25eb%25a6%25ac%2F&amp;t=%5BAI%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%5D%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%B0%A8%EC%9D%B4%EC%A0%90%20%EC%B4%9D%EC%A0%95%EB%A6%AC" target="_blank" rel="nofollow" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="" data-original-title="Facebook"><span class="screen-reader-text">Facebook</span></a><a class="fusion-social-network-icon fusion-tooltip fusion-twitter fusion-icon-twitter" style="color:#bebdbd;" href="https://twitter.com/share?text=%5BAI%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%5D%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%B0%A8%EC%9D%B4%EC%A0%90%20%EC%B4%9D%EC%A0%95%EB%A6%AC&amp;url=https%3A%2F%2Fhongong.hanbit.co.kr%2Fai-%25eb%25ac%25b4%25ec%2597%2587%25ec%259d%25b8%25ea%25b0%2580-%25ec%259d%25b8%25ea%25b3%25b5%25ec%25a7%2580%25eb%258a%25a5-%25eb%25a8%25b8%25ec%258b%25a0%25eb%259f%25ac%25eb%258b%259d-%25eb%2594%25a5%25eb%259f%25ac%25eb%258b%259d-%25ec%25b0%25a8%25ec%259d%25b4%25ec%25a0%2590-%25ec%25b4%259d%25ec%25a0%2595%25eb%25a6%25ac%2F" target="_blank" rel="nofollow" data-placement="top" data-title="Twitter" data-toggle="tooltip" title="" data-original-title="Twitter"><span class="screen-reader-text">Twitter</span></a><a class="fusion-social-network-icon fusion-tooltip fusion-linkedin fusion-icon-linkedin" style="color:#bebdbd;" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/&amp;title=%5BAI%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%5D%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%B0%A8%EC%9D%B4%EC%A0%90%20%EC%B4%9D%EC%A0%95%EB%A6%AC&amp;summary=%E2%9C%8D%EB%91%90%20%EC%A4%84%20%EC%9A%94%EC%95%BD%3A%20%27%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%3E%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%3E%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%88%9C%EC%84%9C%EB%A1%9C%20%EB%B2%94%EC%9C%84%EA%B0%80%20%ED%81%AC%EB%8B%A4%27%20%EB%9D%BC%EA%B3%A0%20%EC%9D%B4%ED%95%B4%ED%95%98%EC%8B%9C%EB%A9%B4%20%ED%8E%B8%ED%95%A9%EB%8B%88%EB%8B%A4.%0D%0A%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%80%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EA%B3%BC%20%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%84%20%ED%8F%AC%EA%B4%84%ED%95%98%EB%8A%94%20%EA%B0%9C%EB%85%90%21%0D%0A%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%2C%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%2C%20%EB%94%A5%EB%9F%AC%EB%8B%9D%21%20%EB%A7%8E%EC%9D%B4%20%EB%93%A4%EC%96%B4%EB%B4%A4%EC%A7%80%EB%A7%8C%20%EC%A0%95%ED%99%95%ED%95%98%EA%B2%8C%20%EA%B0%9C%EB%85%90%EC%9D%B4%20%EC%9E%A1%ED%98%80%EC%9E%88%EC%A7%80%20%EC%95%8A%EC%9D%80%20%EB%B6%84%EB%93%A4%EC%9D%84%20%EC%9C%84%ED%95%B4%20%EA%B0%81%EA%B0%81%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B3%A0%20%EA%B7%B8%20%EC%B0%A8%EC%9D%B4%EB%A5%BC%20%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EB%B3%B4%EA%B2%A0%EC%8A%B5%EB%8B%88%EB%8B%A4.%0D%0A%0D%0A%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%B4%20%EB%AC%B4%EC%97%87%EC%9D%B4%EB%9D%BC%EA%B3%A0%20%EC%84%A4%EB%AA%85%ED%95%98%EC%A7%80%20%EC%95%8A%EC%95%84%EB%8F%84%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80" target="_blank" rel="nofollow" data-placement="top" data-title="LinkedIn" data-toggle="tooltip" title="" data-original-title="LinkedIn"><span class="screen-reader-text">LinkedIn</span></a><a class="fusion-social-network-icon fusion-tooltip fusion-reddit fusion-icon-reddit" style="color:#bebdbd;" href="http://reddit.com/submit?url=https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/&amp;title=%5BAI%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%5D%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%B0%A8%EC%9D%B4%EC%A0%90%20%EC%B4%9D%EC%A0%95%EB%A6%AC" target="_blank" rel="nofollow" data-placement="top" data-title="Reddit" data-toggle="tooltip" title="" data-original-title="Reddit"><span class="screen-reader-text">Reddit</span></a><a class="fusion-social-network-icon fusion-tooltip fusion-whatsapp fusion-icon-whatsapp" style="color:#bebdbd;" href="https://api.whatsapp.com/send?text=https%3A%2F%2Fhongong.hanbit.co.kr%2Fai-%25eb%25ac%25b4%25ec%2597%2587%25ec%259d%25b8%25ea%25b0%2580-%25ec%259d%25b8%25ea%25b3%25b5%25ec%25a7%2580%25eb%258a%25a5-%25eb%25a8%25b8%25ec%258b%25a0%25eb%259f%25ac%25eb%258b%259d-%25eb%2594%25a5%25eb%259f%25ac%25eb%258b%259d-%25ec%25b0%25a8%25ec%259d%25b4%25ec%25a0%2590-%25ec%25b4%259d%25ec%25a0%2595%25eb%25a6%25ac%2F" target="_blank" rel="nofollow" data-placement="top" data-title="Whatsapp" data-toggle="tooltip" title="" data-original-title="Whatsapp"><span class="screen-reader-text">Whatsapp</span></a><a class="fusion-social-network-icon fusion-tooltip fusion-googleplus fusion-icon-googleplus" style="color:#bebdbd;" href="https://plus.google.com/share?url=https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/" onclick="javascript:window.open(this.href,&#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;" target="_blank" rel="nofollow" data-placement="top" data-title="Google+" data-toggle="tooltip" title="" data-original-title="Google+"><span class="screen-reader-text">Google+</span></a><a class="fusion-social-network-icon fusion-tooltip fusion-tumblr fusion-icon-tumblr" style="color:#bebdbd;" href="http://www.tumblr.com/share/link?url=https%3A%2F%2Fhongong.hanbit.co.kr%2Fai-%25eb%25ac%25b4%25ec%2597%2587%25ec%259d%25b8%25ea%25b0%2580-%25ec%259d%25b8%25ea%25b3%25b5%25ec%25a7%2580%25eb%258a%25a5-%25eb%25a8%25b8%25ec%258b%25a0%25eb%259f%25ac%25eb%258b%259d-%25eb%2594%25a5%25eb%259f%25ac%25eb%258b%259d-%25ec%25b0%25a8%25ec%259d%25b4%25ec%25a0%2590-%25ec%25b4%259d%25ec%25a0%2595%25eb%25a6%25ac%2F&amp;name=%5BAI%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%5D%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%B0%A8%EC%9D%B4%EC%A0%90%20%EC%B4%9D%EC%A0%95%EB%A6%AC&amp;description=%E2%9C%8D%EB%91%90%20%EC%A4%84%20%EC%9A%94%EC%95%BD%3A%20%26%2339%3B%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%26gt%3B%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%26gt%3B%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%88%9C%EC%84%9C%EB%A1%9C%20%EB%B2%94%EC%9C%84%EA%B0%80%20%ED%81%AC%EB%8B%A4%26%2339%3B%20%EB%9D%BC%EA%B3%A0%20%EC%9D%B4%ED%95%B4%ED%95%98%EC%8B%9C%EB%A9%B4%20%ED%8E%B8%ED%95%A9%EB%8B%88%EB%8B%A4.%0D%0A%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%80%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EA%B3%BC%20%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%84%20%ED%8F%AC%EA%B4%84%ED%95%98%EB%8A%94%20%EA%B0%9C%EB%85%90%21%0D%0A%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%2C%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%2C%20%EB%94%A5%EB%9F%AC%EB%8B%9D%21%20%EB%A7%8E%EC%9D%B4%20%EB%93%A4%EC%96%B4%EB%B4%A4%EC%A7%80%EB%A7%8C%20%EC%A0%95%ED%99%95%ED%95%98%EA%B2%8C%20%EA%B0%9C%EB%85%90%EC%9D%B4%20%EC%9E%A1%ED%98%80%EC%9E%88%EC%A7%80%20%EC%95%8A%EC%9D%80%20%EB%B6%84%EB%93%A4%EC%9D%84%20%EC%9C%84%ED%95%B4%20%EA%B0%81%EA%B0%81%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B3%A0%20%EA%B7%B8%20%EC%B0%A8%EC%9D%B4%EB%A5%BC%20%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EB%B3%B4%EA%B2%A0%EC%8A%B5%EB%8B%88%EB%8B%A4.%0D%0A%0D%0A%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%B4%20%EB%AC%B4%EC%97%87%EC%9D%B4%EB%9D%BC%EA%B3%A0%20%EC%84%A4%EB%AA%85%ED%95%98%EC%A7%80%20%EC%95%8A%EC%95%84%EB%8F%84%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80" target="_blank" rel="nofollow" data-placement="top" data-title="Tumblr" data-toggle="tooltip" title="" data-original-title="Tumblr"><span class="screen-reader-text">Tumblr</span></a><a class="fusion-social-network-icon fusion-tooltip fusion-pinterest fusion-icon-pinterest" style="color:#bebdbd;" href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fhongong.hanbit.co.kr%2Fai-%25eb%25ac%25b4%25ec%2597%2587%25ec%259d%25b8%25ea%25b0%2580-%25ec%259d%25b8%25ea%25b3%25b5%25ec%25a7%2580%25eb%258a%25a5-%25eb%25a8%25b8%25ec%258b%25a0%25eb%259f%25ac%25eb%258b%259d-%25eb%2594%25a5%25eb%259f%25ac%25eb%258b%259d-%25ec%25b0%25a8%25ec%259d%25b4%25ec%25a0%2590-%25ec%25b4%259d%25ec%25a0%2595%25eb%25a6%25ac%2F&amp;description=%E2%9C%8D%EB%91%90%20%EC%A4%84%20%EC%9A%94%EC%95%BD%3A%20%26%2339%3B%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%26gt%3B%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%26gt%3B%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%88%9C%EC%84%9C%EB%A1%9C%20%EB%B2%94%EC%9C%84%EA%B0%80%20%ED%81%AC%EB%8B%A4%26%2339%3B%20%EB%9D%BC%EA%B3%A0%20%EC%9D%B4%ED%95%B4%ED%95%98%EC%8B%9C%EB%A9%B4%20%ED%8E%B8%ED%95%A9%EB%8B%88%EB%8B%A4.%0D%0A%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%80%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EA%B3%BC%20%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%84%20%ED%8F%AC%EA%B4%84%ED%95%98%EB%8A%94%20%EA%B0%9C%EB%85%90%21%0D%0A%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%2C%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%2C%20%EB%94%A5%EB%9F%AC%EB%8B%9D%21%20%EB%A7%8E%EC%9D%B4%20%EB%93%A4%EC%96%B4%EB%B4%A4%EC%A7%80%EB%A7%8C%20%EC%A0%95%ED%99%95%ED%95%98%EA%B2%8C%20%EA%B0%9C%EB%85%90%EC%9D%B4%20%EC%9E%A1%ED%98%80%EC%9E%88%EC%A7%80%20%EC%95%8A%EC%9D%80%20%EB%B6%84%EB%93%A4%EC%9D%84%20%EC%9C%84%ED%95%B4%20%EA%B0%81%EA%B0%81%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B3%A0%20%EA%B7%B8%20%EC%B0%A8%EC%9D%B4%EB%A5%BC%20%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EB%B3%B4%EA%B2%A0%EC%8A%B5%EB%8B%88%EB%8B%A4.%0D%0A%0D%0A%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%B4%20%EB%AC%B4%EC%97%87%EC%9D%B4%EB%9D%BC%EA%B3%A0%20%EC%84%A4%EB%AA%85%ED%95%98%EC%A7%80%20%EC%95%8A%EC%95%84%EB%8F%84%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80&amp;media=https%3A%2F%2Fhongong.hanbit.co.kr%2Fwp-content%2Fuploads%2F2021%2F10%2FAI%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90.png" target="_blank" rel="nofollow" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="" data-original-title="Pinterest"><span class="screen-reader-text">Pinterest</span></a><a class="fusion-social-network-icon fusion-tooltip fusion-vk fusion-icon-vk" style="color:#bebdbd;" href="http://vkontakte.ru/share.php?url=https%3A%2F%2Fhongong.hanbit.co.kr%2Fai-%25eb%25ac%25b4%25ec%2597%2587%25ec%259d%25b8%25ea%25b0%2580-%25ec%259d%25b8%25ea%25b3%25b5%25ec%25a7%2580%25eb%258a%25a5-%25eb%25a8%25b8%25ec%258b%25a0%25eb%259f%25ac%25eb%258b%259d-%25eb%2594%25a5%25eb%259f%25ac%25eb%258b%259d-%25ec%25b0%25a8%25ec%259d%25b4%25ec%25a0%2590-%25ec%25b4%259d%25ec%25a0%2595%25eb%25a6%25ac%2F&amp;title=%5BAI%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%5D%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%B0%A8%EC%9D%B4%EC%A0%90%20%EC%B4%9D%EC%A0%95%EB%A6%AC&amp;description=%E2%9C%8D%EB%91%90%20%EC%A4%84%20%EC%9A%94%EC%95%BD%3A%20%26%2339%3B%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%26gt%3B%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%26gt%3B%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%88%9C%EC%84%9C%EB%A1%9C%20%EB%B2%94%EC%9C%84%EA%B0%80%20%ED%81%AC%EB%8B%A4%26%2339%3B%20%EB%9D%BC%EA%B3%A0%20%EC%9D%B4%ED%95%B4%ED%95%98%EC%8B%9C%EB%A9%B4%20%ED%8E%B8%ED%95%A9%EB%8B%88%EB%8B%A4.%0D%0A%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%80%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EA%B3%BC%20%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%84%20%ED%8F%AC%EA%B4%84%ED%95%98%EB%8A%94%20%EA%B0%9C%EB%85%90%21%0D%0A%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%2C%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%2C%20%EB%94%A5%EB%9F%AC%EB%8B%9D%21%20%EB%A7%8E%EC%9D%B4%20%EB%93%A4%EC%96%B4%EB%B4%A4%EC%A7%80%EB%A7%8C%20%EC%A0%95%ED%99%95%ED%95%98%EA%B2%8C%20%EA%B0%9C%EB%85%90%EC%9D%B4%20%EC%9E%A1%ED%98%80%EC%9E%88%EC%A7%80%20%EC%95%8A%EC%9D%80%20%EB%B6%84%EB%93%A4%EC%9D%84%20%EC%9C%84%ED%95%B4%20%EA%B0%81%EA%B0%81%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B3%A0%20%EA%B7%B8%20%EC%B0%A8%EC%9D%B4%EB%A5%BC%20%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C%20%EC%A0%95%EB%A6%AC%ED%95%B4%EB%B3%B4%EA%B2%A0%EC%8A%B5%EB%8B%88%EB%8B%A4.%0D%0A%0D%0A%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%B4%20%EB%AC%B4%EC%97%87%EC%9D%B4%EB%9D%BC%EA%B3%A0%20%EC%84%A4%EB%AA%85%ED%95%98%EC%A7%80%20%EC%95%8A%EC%95%84%EB%8F%84%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80" target="_blank" rel="nofollow" data-placement="top" data-title="Vk" data-toggle="tooltip" title="" data-original-title="Vk"><span class="screen-reader-text">Vk</span></a><a class="fusion-social-network-icon fusion-tooltip fusion-mail fusion-icon-mail fusion-last-social-icon" style="color:#bebdbd;" href="mailto:?subject=%5BAI%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%5D%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%B0%A8%EC%9D%B4%EC%A0%90%20%EC%B4%9D%EC%A0%95%EB%A6%AC&amp;body=https://hongong.hanbit.co.kr/ai-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d-%eb%94%a5%eb%9f%ac%eb%8b%9d-%ec%b0%a8%ec%9d%b4%ec%a0%90-%ec%b4%9d%ec%a0%95%eb%a6%ac/" target="_self" rel="nofollow" data-placement="top" data-title="Email" data-toggle="tooltip" title="" data-original-title="Email"><span class="screen-reader-text">Email</span></a><div class="fusion-clearfix"></div></div></div>	</div>
+														<section class="about-author">
+																					<div class="fusion-title fusion-title-size-two sep-none fusion-sep-none fusion-border-below-title" style="margin-top:0px;margin-bottom:31px;">
+				<h2 class="title-heading-left" style="margin:0;">
+					About the Author: 						<a href="https://hongong.hanbit.co.kr/author/hongong/" title="혼공족장 작성 글" rel="author">혼공족장</a>																</h2>
+			</div>
+									<div class="about-author-container">
+							<div class="avatar">
+								<img alt="" src="./index_files/058e86091f6787bd9801323ccaf7ee11.png" srcset="https://secure.gravatar.com/avatar/058e86091f6787bd9801323ccaf7ee11?s=144&amp;d=mm&amp;r=g 2x" class="avatar avatar-72 photo" height="72" width="72" loading="lazy" decoding="async" data-pagespeed-url-hash="374884081" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">							</div>
+							<div class="description">
+															</div>
+						</div>
+					</section>
+								<section class="related-posts single-related-posts">
+				<div class="fusion-title fusion-title-size-two sep-none fusion-sep-none fusion-border-below-title" style="margin-top:0px;margin-bottom:31px;">
+				<h2 class="title-heading-left" style="margin:0;">
+					Related Posts				</h2>
+			</div>
+			
+	
+	
+	
+	
+				<div class="fusion-carousel" data-imagesize="fixed" data-metacontent="no" data-autoplay="no" data-touchscroll="no" data-columns="5" data-itemmargin="44px" data-itemwidth="180" data-scrollitems="">
+		<div class="fusion-carousel-positioner" style="margin-left: -44px;">
+			<div class="fusion-carousel-wrapper" style="text-align: start; float: none; position: relative; inset: auto; z-index: auto; width: 1040px; height: 164px; margin: 0px; overflow: hidden;"><ul class="fusion-carousel-holder" style="text-align: left; float: none; position: absolute; inset: auto auto auto 0px; margin: 0px; width: 3120px; height: 164px; line-height: 164px;">
+																							<li class="fusion-carousel-item" style="margin-left: 44px; width: 164px;">
+						<div class="fusion-carousel-item-wrapper" style="visibility: inherit;">
+							
+
+<div class="fusion-image-wrapper fusion-image-size-fixed" aria-haspopup="true">
+	
+	
+		<a href="https://hongong.hanbit.co.kr/ai-%ea%b8%b0%ec%b4%88-%ec%a7%80%ec%8b%9d-%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5%ec%97%90%ec%84%9c-%eb%aa%a8%eb%8d%b8%ea%b3%bc-%ec%9e%90%ec%97%b0%ec%96%b4-%ec%b2%98%eb%a6%ac/">
+					<img src="./index_files/Model-and-Natural-Language-Processing-in-Artificial-Intelligence.png" srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2024/06/Model-and-Natural-Language-Processing-in-Artificial-Intelligence.png 1x, https://hongong.hanbit.co.kr/wp-content/uploads/2024/06/Model-and-Natural-Language-Processing-in-Artificial-Intelligence.png 2x" width="500" height="383" alt="[AI 기초 지식] 인공지능에서 모델과 자연어 처리(NLP)" data-pagespeed-url-hash="288124834" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+
+
+		</a>
+
+	
+</div>
+													</div><!-- fusion-carousel-item-wrapper -->
+					</li>
+																			<li class="fusion-carousel-item" style="margin-left: 44px; width: 164px;">
+						<div class="fusion-carousel-item-wrapper" style="visibility: inherit;">
+							
+
+<div class="fusion-image-wrapper fusion-image-size-fixed" aria-haspopup="true">
+	
+	
+		<a href="https://hongong.hanbit.co.kr/network-%ed%8a%b8%eb%9e%98%ed%94%bd%ea%b3%bc-%eb%84%a4%ed%8a%b8%ec%9b%8c%ed%81%ac-%ec%84%b1%eb%8a%a5-%ec%a7%80%ed%91%9c/">
+					<img src="./index_files/Traffic-and-Network-Performance-Indicators.png" srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2024/04/Traffic-and-Network-Performance-Indicators.png 1x, https://hongong.hanbit.co.kr/wp-content/uploads/2024/04/Traffic-and-Network-Performance-Indicators.png 2x" width="500" height="383" alt="[Network] 트래픽과 네트워크 성능 지표" data-pagespeed-url-hash="1926130213" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+
+
+		</a>
+
+	
+</div>
+													</div><!-- fusion-carousel-item-wrapper -->
+					</li>
+																			<li class="fusion-carousel-item" style="margin-left: 44px; width: 164px;">
+						<div class="fusion-carousel-item-wrapper" style="visibility: inherit;">
+							
+
+<div class="fusion-image-wrapper fusion-image-size-fixed" aria-haspopup="true">
+	
+	
+		<a href="https://hongong.hanbit.co.kr/network-%eb%b2%94%ec%9c%84%ec%97%90-%eb%94%b0%eb%a5%b8-%eb%84%a4%ed%8a%b8%ec%9b%8c%ed%81%ac-%eb%b6%84%eb%a5%98lan-wan/">
+					<img src="./index_files/network_LAN_WAN.png" srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2024/04/network_LAN_WAN.png 1x, https://hongong.hanbit.co.kr/wp-content/uploads/2024/04/network_LAN_WAN.png 2x" width="500" height="383" alt="[Network] 범위에 따른 네트워크 분류(LAN, WAN)" data-pagespeed-url-hash="1049841204" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+
+
+		</a>
+
+	
+</div>
+													</div><!-- fusion-carousel-item-wrapper -->
+					</li>
+																			<li class="fusion-carousel-item" style="margin-left: 44px; width: 164px;">
+						<div class="fusion-carousel-item-wrapper" style="visibility: inherit;">
+							
+
+<div class="fusion-image-wrapper fusion-image-size-fixed" aria-haspopup="true">
+	
+	
+		<a href="https://hongong.hanbit.co.kr/network-%ed%9a%8c%ec%84%a0-%ea%b5%90%ed%99%98-%eb%b0%a9%ec%8b%9d%ea%b3%bc-%ed%8c%a8%ed%82%b7-%ea%b5%90%ed%99%98-%eb%b0%a9%ec%8b%9d/">
+					<img src="./index_files/circuit-switched-method-packet-switched-method.png" srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2024/04/circuit-switched-method-packet-switched-method.png 1x, https://hongong.hanbit.co.kr/wp-content/uploads/2024/04/circuit-switched-method-packet-switched-method.png 2x" width="500" height="383" alt="[Network] 회선 교환 방식과 패킷 교환 방식" data-pagespeed-url-hash="3673282475" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+
+
+		</a>
+
+	
+</div>
+													</div><!-- fusion-carousel-item-wrapper -->
+					</li>
+																			<li class="fusion-carousel-item" style="margin-left: 44px; width: 164px;">
+						<div class="fusion-carousel-item-wrapper" style="visibility: inherit;">
+							
+
+<div class="fusion-image-wrapper fusion-image-size-fixed" aria-haspopup="true">
+	
+	
+		<a href="https://hongong.hanbit.co.kr/network-%eb%84%a4%ed%8a%b8%ec%9b%8c%ed%81%ac%ec%9d%98-%ea%b8%b0%eb%b3%b8-%ea%b5%ac%ec%a1%b0%ed%98%b8%ec%8a%a4%ed%8a%b8-%eb%84%a4%ed%8a%b8%ec%9b%8c%ed%81%ac-%ec%9e%a5%eb%b9%84-%ed%86%b5%ec%8b%a0/">
+					<img src="./index_files/structure-of-the-network.png" srcset="https://hongong.hanbit.co.kr/wp-content/uploads/2024/04/structure-of-the-network.png 1x, https://hongong.hanbit.co.kr/wp-content/uploads/2024/04/structure-of-the-network.png 2x" width="500" height="383" alt="[Network] 네트워크의 기본 구조(호스트, 네트워크 장비, 통신매체, 메시지)" data-pagespeed-url-hash="2641476969" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+
+
+		</a>
+
+	
+</div>
+													</div><!-- fusion-carousel-item-wrapper -->
+					</li>
+							</ul></div><!-- fusion-carousel-holder -->
+						
+		</div><!-- fusion-carousel-positioner -->
+	</div><!-- fusion-carousel -->
+</section><!-- related-posts -->
+
+
+																		
+
+	<div id="comments" class="comments-container">
+					<div class="fusion-title fusion-title-size-two sep-none fusion-sep-none fusion-border-below-title" style="margin-top:0px;margin-bottom:31px;">
+				<h2 class="title-heading-left" style="margin:0;">
+							5 Comments						</h2>
+			</div>
+			
+		<ol class="comment-list commentlist">
+							<li class="comment even thread-even depth-1" id="comment-590">
+			<div class="the-comment">
+				<div class="avatar"><img alt="" src="./index_files/9271b0bddffd130e9a1a763a6e706955.png" srcset="https://secure.gravatar.com/avatar/9271b0bddffd130e9a1a763a6e706955?s=108&amp;d=mm&amp;r=g 2x" class="avatar avatar-54 photo" height="54" width="54" loading="lazy" decoding="async" data-pagespeed-url-hash="1515698649" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+				<div class="comment-box">
+					<div class="comment-author meta">
+						<strong>MS.HAN</strong>
+												2022-02-26 at 4:21 오후						<a rel="nofollow" class="comment-reply-link" href="https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/#comment-590" data-commentid="590" data-postid="1828" data-belowelement="comment-590" data-respondelement="respond" data-replyto="MS.HAN에 응답" aria-label="MS.HAN에 응답"> - Reply</a>					</div>
+					<div class="comment-text">
+												<p>좋은 글. 깔끔한 정리 고맙습니다. 감사합니다.<br>
+잘 보고 갑니다.</p>
+					</div>
+				</div>
+			</div>
+		</li><!-- #comment-## -->
+				<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-850">
+			<div class="the-comment">
+				<div class="avatar"><img alt="" src="./index_files/15a26617b31c1af9f9790d983f3ff661.png" srcset="https://secure.gravatar.com/avatar/15a26617b31c1af9f9790d983f3ff661?s=108&amp;d=mm&amp;r=g 2x" class="avatar avatar-54 photo" height="54" width="54" loading="lazy" decoding="async" data-pagespeed-url-hash="3643086817" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+				<div class="comment-box">
+					<div class="comment-author meta">
+						<strong>DJ</strong>
+												2022-07-13 at 11:51 오전						<a rel="nofollow" class="comment-reply-link" href="https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/#comment-850" data-commentid="850" data-postid="1828" data-belowelement="comment-850" data-respondelement="respond" data-replyto="DJ에 응답" aria-label="DJ에 응답"> - Reply</a>					</div>
+					<div class="comment-text">
+												<p>잘 정리해주셔서 고맙습니다. 덕분에 많이 배웠습니다.</p>
+					</div>
+				</div>
+			</div>
+		</li><!-- #comment-## -->
+				<li class="comment even thread-even depth-1" id="comment-852">
+			<div class="the-comment">
+				<div class="avatar"><img alt="" src="./index_files/37a1130c5589f076adc152cde3ccf37a.png" srcset="https://secure.gravatar.com/avatar/37a1130c5589f076adc152cde3ccf37a?s=108&amp;d=mm&amp;r=g 2x" class="avatar avatar-54 photo" height="54" width="54" loading="lazy" decoding="async" data-pagespeed-url-hash="2465432042" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+				<div class="comment-box">
+					<div class="comment-author meta">
+						<strong>ㅋ</strong>
+												2022-08-29 at 12:27 오후						<a rel="nofollow" class="comment-reply-link" href="https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/#comment-852" data-commentid="852" data-postid="1828" data-belowelement="comment-852" data-respondelement="respond" data-replyto="ㅋ에 응답" aria-label="ㅋ에 응답"> - Reply</a>					</div>
+					<div class="comment-text">
+												<p>정말 잘 정리된 글이네요.</p>
+					</div>
+				</div>
+			</div>
+		</li><!-- #comment-## -->
+				<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-1183">
+			<div class="the-comment">
+				<div class="avatar"><img alt="" src="./index_files/b31cb602c32a51c354b72fc0913efaea.png" srcset="https://secure.gravatar.com/avatar/b31cb602c32a51c354b72fc0913efaea?s=108&amp;d=mm&amp;r=g 2x" class="avatar avatar-54 photo" height="54" width="54" loading="lazy" decoding="async" data-pagespeed-url-hash="3498096409" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+				<div class="comment-box">
+					<div class="comment-author meta">
+						<strong>AMEN</strong>
+												2023-05-19 at 12:51 오전						<a rel="nofollow" class="comment-reply-link" href="https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/#comment-1183" data-commentid="1183" data-postid="1828" data-belowelement="comment-1183" data-respondelement="respond" data-replyto="AMEN에 응답" aria-label="AMEN에 응답"> - Reply</a>					</div>
+					<div class="comment-text">
+												<p>감사합니다! 항상 헷갈리던 개념들이었는데 너무 잘 정리해주셨네요!</p>
+					</div>
+				</div>
+			</div>
+		</li><!-- #comment-## -->
+				<li class="comment even thread-even depth-1" id="comment-2924">
+			<div class="the-comment">
+				<div class="avatar"><img alt="" src="./index_files/ddd4d4eb24e885c426959103aafeef61.png" srcset="https://secure.gravatar.com/avatar/ddd4d4eb24e885c426959103aafeef61?s=108&amp;d=mm&amp;r=g 2x" class="avatar avatar-54 photo" height="54" width="54" loading="lazy" decoding="async" data-pagespeed-url-hash="1499674349" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+				<div class="comment-box">
+					<div class="comment-author meta">
+						<strong>noname</strong>
+												2024-02-14 at 9:55 오전						<a rel="nofollow" class="comment-reply-link" href="https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/#comment-2924" data-commentid="2924" data-postid="1828" data-belowelement="comment-2924" data-respondelement="respond" data-replyto="noname에 응답" aria-label="noname에 응답"> - Reply</a>					</div>
+					<div class="comment-text">
+												<p>한시간 동안 ai 관련 직업들과 단어들 계속 찾았는데 저마다 해석이 다 다르고, 용어도 너무 어려운 전문용어에 추상적으로 설명하는 글들이 산더미였는데 이 글은 너무나 이해가 쉽고 잘 정리되어있다. 이런 글이 흥해야함</p>
+					</div>
+				</div>
+			</div>
+		</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+			</div>
+
+
+
+		<div id="respond" class="comment-respond">
+		<div class="fusion-title title fusion-title-size-three sep-none" style="margin-top:0px;margin-bottom:31px;"><h2 id="reply-title" class="comment-reply-title title-heading-left">Leave A Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://hongong.hanbit.co.kr/ai-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC/#respond" style="display:none;">응답 취소</a></small></h2><div class="title-sep-container"><div class="title-sep sep-none "></div></div></div><form action="https://hongong.hanbit.co.kr/wp-comments-post.php" method="post" id="commentform" class="comment-form"><div id="comment-textarea"><label class="screen-reader-text" for="comment">Comment</label><textarea name="comment" id="comment" cols="45" rows="8" aria-required="true" required="required" tabindex="0" class="textarea-comment" placeholder="Comment..." style="max-width: 1000px;"></textarea></div><div id="comment-input"><input id="author" name="author" type="text" value="" placeholder="Name (required)" size="30" aria-required="true" required="required" aria-label="Name">
+<input id="email" name="email" type="email" value="" placeholder="Email (required)" size="30" aria-required="true" required="required" aria-label="Email">
+<input id="url" name="url" type="url" value="" placeholder="Website" size="30" aria-label="URL"></div>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"><label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="fusion-button fusion-button-default fusion-button-default-size" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="1828" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none !important;"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="1731864532008"><script>document.getElementById("ak_js_1").setAttribute("value",(new Date()).getTime());</script></p></form>	</div><!-- #respond -->
+														</article>
+		</section>
+					
+				</div>  <!-- fusion-row -->
+			</main>  <!-- #main -->
+			
+			
+			
+										
+				<div class="fusion-footer">
+					
+	
+	<footer id="footer" class="fusion-footer-copyright-area">
+		<div class="fusion-row">
+			<div class="fusion-copyright-content">
+
+				<div class="fusion-copyright-notice">
+		<div>
+		한빛미디어(주) 서울 서대문구 연희로2길 62<br>
+대표이사 : 김태헌 / 사업자등록번호 : 220-81-05665<br>
+TEL : 02-2128-8426 / FAX : 02-325-9697 / E-MAIL :  event@hanbit.co.kr	</div>
+</div>
+<div class="fusion-social-links-footer">
+	<div class="fusion-social-networks"><div class="fusion-social-networks-wrapper"><a class="fusion-social-network-icon fusion-tooltip fusion-facebook fusion-icon-facebook" style="color:#46494a;" href="https://www.facebook.com/hanbitmedia" target="_blank" rel="nofollow" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="" data-original-title="Facebook"><span class="screen-reader-text">Facebook</span></a><a class="fusion-social-network-icon fusion-tooltip fusion-blogger fusion-icon-blogger" style="color:#46494a;" href="https://m.post.naver.com/my.nhn?memberNo=25379965" target="_blank" rel="nofollow" data-placement="top" data-title="Blogger" data-toggle="tooltip" title="" data-original-title="Blogger"><span class="screen-reader-text">Blogger</span></a><a class="fusion-social-network-icon fusion-tooltip fusion-youtube fusion-icon-youtube" style="color:#46494a;" href="https://www.youtube.com/user/HanbitMedia93" target="_blank" rel="nofollow" data-placement="top" data-title="YouTube" data-toggle="tooltip" title="" data-original-title="YouTube"><span class="screen-reader-text">YouTube</span></a></div></div></div>
+
+			</div> <!-- fusion-fusion-copyright-content -->
+		</div> <!-- fusion-row -->
+	</footer> <!-- #footer -->
+				</div> <!-- fusion-footer -->
+
+									</div> <!-- wrapper -->
+
+								<a class="fusion-one-page-text-link fusion-page-load-link"></a>
+
+		<style type="text/css">.vlp-template-default{border:1px solid #444;margin-top:10px;margin-bottom:10px;padding:10px;position:relative;display:flex}.vlp-template-default .vlp-link-image-container{flex-shrink:0;max-width:100%}.vlp-template-default .vlp-link-image{font-size:0;padding-right:10px}.vlp-template-default .vlp-link-image img{width:100%}.vlp-template-default .vlp-link-title{font-weight:bold;font-size:1.2em;line-height:2em}@media all and (max-width:450px){.vlp-template-default{flex-wrap:wrap}.vlp-template-default .vlp-link-image-container{margin:0 auto}.vlp-template-default .vlp-link-image{padding-right:0}}</style>				<script type="text/javascript">jQuery(document).ready(function(){var ajaxurl='https://hongong.hanbit.co.kr/wp-admin/admin-ajax.php';if(0<jQuery('.fusion-login-nonce').length){jQuery.get(ajaxurl,{'action':'fusion_login_nonce'},function(response){jQuery('.fusion-login-nonce').html(response);});}});</script>
+				<script type="text/javascript" src="./index_files/index.js.다운로드" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">//<![CDATA[
+var wpcf7={"api":{"root":"https:\/\/hongong.hanbit.co.kr\/wp-json\/","namespace":"contact-form-7\/v1"}};
+//]]></script>
+<script type="text/javascript" src="./index_files/index(1).js.다운로드" id="contact-form-7-js"></script>
+<script type="text/javascript" src="./index_files/comment-reply.min.js.다운로드" id="comment-reply-js"></script>
+<script type="text/javascript" src="./index_files/modernizr.js.다운로드" id="modernizr-js"></script>
+<script type="text/javascript" src="./index_files/jquery.fitvids.js.다운로드" id="jquery-fitvids-js"></script>
+<script type="text/javascript" id="fusion-video-general-js-extra">//<![CDATA[
+var fusionVideoGeneralVars={"status_vimeo":"0","status_yt":"0"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-video-general.js.다운로드" id="fusion-video-general-js"></script>
+<script type="text/javascript" id="jquery-lightbox-js-extra">//<![CDATA[
+var fusionLightboxVideoVars={"lightbox_video_width":"1280","lightbox_video_height":"720"};
+//]]></script>
+<script type="text/javascript" src="./index_files/jquery.ilightbox.js.다운로드" id="jquery-lightbox-js"></script>
+<script type="text/javascript" src="./index_files/jquery.mousewheel.js.다운로드" id="jquery-mousewheel-js"></script>
+<script type="text/javascript" id="fusion-lightbox-js-extra">//<![CDATA[
+var fusionLightboxVars={"status_lightbox":"1","lightbox_gallery":"1","lightbox_skin":"metro-white","lightbox_title":"1","lightbox_arrows":"1","lightbox_slideshow_speed":"5000","lightbox_autoplay":"","lightbox_opacity":"0.9","lightbox_desc":"1","lightbox_social":"1","lightbox_deeplinking":"1","lightbox_path":"vertical","lightbox_post_images":"1","lightbox_animation_speed":"Normal"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-lightbox.js.다운로드" id="fusion-lightbox-js"></script>
+<script type="text/javascript" src="./index_files/imagesLoaded.js.다운로드" id="images-loaded-js"></script>
+<script type="text/javascript" src="./index_files/isotope.js.다운로드" id="isotope-js"></script>
+<script type="text/javascript" src="./index_files/packery.js.다운로드" id="packery-js"></script>
+<script type="text/javascript" id="avada-portfolio-js-extra">//<![CDATA[
+var avadaPortfolioVars={"lightbox_behavior":"all","infinite_finished_msg":"<em>All items displayed.<\/em>","infinite_blog_text":"<em>Loading the next set of posts...<\/em>","content_break_point":"800"};
+//]]></script>
+<script type="text/javascript" src="./index_files/avada-portfolio.js.다운로드" id="avada-portfolio-js"></script>
+<script type="text/javascript" src="./index_files/jquery.infinitescroll.js.다운로드" id="jquery-infinite-scroll-js"></script>
+<script type="text/javascript" src="./index_files/avada-faqs.js.다운로드" id="avada-faqs-js"></script>
+<script type="text/javascript" id="fusion-column-bg-image-js-extra">//<![CDATA[
+var fusionBgImageVars={"content_break_point":"800"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-column-bg-image.js.다운로드" id="fusion-column-bg-image-js"></script>
+<script type="text/javascript" id="fusion-equal-heights-js-extra">//<![CDATA[
+var fusionEqualHeightVars={"content_break_point":"800"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-equal-heights.js.다운로드" id="fusion-equal-heights-js"></script>
+<script type="text/javascript" src="./index_files/fusion-column.js.다운로드" id="fusion-column-js"></script>
+<script type="text/javascript" src="./index_files/jquery.event.move.js.다운로드" id="jquery-event-move-js"></script>
+<script type="text/javascript" src="./index_files/fusion-image-before-after.js.다운로드" id="fusion-image-before-after-js"></script>
+<script type="text/javascript" src="./index_files/jquery.countTo.js.다운로드" id="jquery-count-to-js"></script>
+<script type="text/javascript" src="./index_files/jquery.appear.js.다운로드" id="jquery-appear-js"></script>
+<script type="text/javascript" id="fusion-counters-box-js-extra">//<![CDATA[
+var fusionCountersBox={"counter_box_speed":"1000"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-counters-box.js.다운로드" id="fusion-counters-box-js"></script>
+<script type="text/javascript" src="./index_files/fusion-flip-boxes.js.다운로드" id="fusion-flip-boxes-js"></script>
+<script type="text/javascript" src="./index_files/bootstrap.modal.js.다운로드" id="bootstrap-modal-js"></script>
+<script type="text/javascript" src="./index_files/fusion-modal.js.다운로드" id="fusion-modal-js"></script>
+<script type="text/javascript" src="./index_files/fusion-title.js.다운로드" id="fusion-title-js"></script>
+<script type="text/javascript" id="jquery-fusion-maps-js-extra">//<![CDATA[
+var fusionMapsVars={"admin_ajax":"https:\/\/hongong.hanbit.co.kr\/wp-admin\/admin-ajax.php"};
+//]]></script>
+<script type="text/javascript" src="./index_files/jquery.fusion_maps.js.다운로드" id="jquery-fusion-maps-js"></script>
+<script type="text/javascript" src="./index_files/fusion-google-map.js.다운로드" id="fusion-google-map-js"></script>
+<script type="text/javascript" src="./index_files/jquery.waypoints.js.다운로드" id="jquery-waypoints-js"></script>
+<script type="text/javascript" src="./index_files/fusion-waypoints.js.다운로드" id="fusion-waypoints-js"></script>
+<script type="text/javascript" src="./index_files/fusion-progress.js.다운로드" id="fusion-progress-js"></script>
+<script type="text/javascript" src="./index_files/bootstrap.collapse.js.다운로드" id="bootstrap-collapse-js"></script>
+<script type="text/javascript" src="./index_files/fusion-toggles.js.다운로드" id="fusion-toggles-js"></script>
+<script type="text/javascript" src="./index_files/bootstrap.transition.js.다운로드" id="bootstrap-transition-js"></script>
+<script type="text/javascript" src="./index_files/bootstrap.tab.js.다운로드" id="bootstrap-tab-js"></script>
+<script type="text/javascript" id="fusion-tabs-js-extra">//<![CDATA[
+var fusionTabVars={"content_break_point":"800"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-tabs.js.다운로드" id="fusion-tabs-js"></script>
+<script type="text/javascript" src="./index_files/fusion-events.js.다운로드" id="fusion-events-js"></script>
+<script type="text/javascript" src="./index_files/fusion-gallery.js.다운로드" id="fusion-gallery-js"></script>
+<script type="text/javascript" src="./index_files/jquery.countdown.js.다운로드" id="jquery-count-down-js"></script>
+<script type="text/javascript" src="./index_files/fusion-countdown.js.다운로드" id="fusion-count-down-js"></script>
+<script type="text/javascript" src="./index_files/jquery.cycle.js.다운로드" id="jquery-cycle-js"></script>
+<script type="text/javascript" id="fusion-testimonials-js-extra">//<![CDATA[
+var fusionTestimonialVars={"testimonials_speed":"4000"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-testimonials.js.다운로드" id="fusion-testimonials-js"></script>
+<script type="text/javascript" src="./index_files/jquery.fade.js.다운로드" id="jquery-fade-js"></script>
+<script type="text/javascript" src="./index_files/cssua.js.다운로드" id="cssua-js"></script>
+<script type="text/javascript" src="./index_files/jquery.requestAnimationFrame.js.다운로드" id="jquery-request-animation-frame-js"></script>
+<script type="text/javascript" src="./index_files/fusion-parallax.js.다운로드" id="fusion-parallax-js"></script>
+<script type="text/javascript" id="fusion-video-bg-js-extra">//<![CDATA[
+var fusionVideoBgVars={"status_vimeo":"0","status_yt":"0"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-video-bg.js.다운로드" id="fusion-video-bg-js"></script>
+<script type="text/javascript" id="fusion-container-js-extra">//<![CDATA[
+var fusionContainerVars={"content_break_point":"800","container_hundred_percent_height_mobile":"0","is_sticky_header_transparent":"0"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-container.js.다운로드" id="fusion-container-js"></script>
+<script type="text/javascript" src="./index_files/fusion-syntax-highlighter.js.다운로드" id="fusion-syntax-highlighter-js"></script>
+<script type="text/javascript" src="./index_files/fusion-content-boxes.js.다운로드" id="fusion-content-boxes-js"></script>
+<script type="text/javascript" src="./index_files/Chart.js.다운로드" id="fusion-chartjs-js"></script>
+<script type="text/javascript" src="./index_files/fusion-chart.js.다운로드" id="fusion-chart-js"></script>
+<script type="text/javascript" src="./index_files/jquery.easyPieChart.js.다운로드" id="jquery-easy-pie-chart-js"></script>
+<script type="text/javascript" src="./index_files/fusion-counters-circle.js.다운로드" id="fusion-counters-circle-js"></script>
+<script type="text/javascript" id="fusion-recent-posts-js-extra">//<![CDATA[
+var fusionRecentPostsVars={"infinite_loading_text":"<em>Loading the next set of posts...<\/em>","infinite_finished_msg":"<em>All items displayed.<\/em>","slideshow_autoplay":"1","slideshow_speed":"7000","pagination_video_slide":"","status_yt":""};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-recent-posts.js.다운로드" id="fusion-recent-posts-js"></script>
+<script type="text/javascript" id="fusion-video-js-extra">//<![CDATA[
+var fusionVideoVars={"status_vimeo":"0"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-video.js.다운로드" id="fusion-video-js"></script>
+<script type="text/javascript" src="./index_files/jquery.hoverintent.js.다운로드" id="jquery-hover-intent-js"></script>
+<script type="text/javascript" src="./index_files/avada-vertical-menu-widget.js.다운로드" id="avada-vertical-menu-widget-js"></script>
+<script type="text/javascript" src="./index_files/lazysizes.js.다운로드" id="lazysizes-js"></script>
+<script type="text/javascript" src="./index_files/bootstrap.tooltip.js.다운로드" id="bootstrap-tooltip-js"></script>
+<script type="text/javascript" src="./index_files/bootstrap.popover.js.다운로드" id="bootstrap-popover-js"></script>
+<script type="text/javascript" src="./index_files/jquery.carouFredSel.js.다운로드" id="jquery-caroufredsel-js"></script>
+<script type="text/javascript" src="./index_files/jquery.easing.js.다운로드" id="jquery-easing-js"></script>
+<script type="text/javascript" src="./index_files/jquery.flexslider.js.다운로드" id="jquery-flexslider-js"></script>
+<script type="text/javascript" src="./index_files/jquery.hoverflow.js.다운로드" id="jquery-hover-flow-js"></script>
+<script type="text/javascript" src="./index_files/jquery.placeholder.js.다운로드" id="jquery-placeholder-js"></script>
+<script type="text/javascript" src="./index_files/jquery.touchSwipe.js.다운로드" id="jquery-touch-swipe-js"></script>
+<script type="text/javascript" src="./index_files/fusion-alert.js.다운로드" id="fusion-alert-js"></script>
+<script type="text/javascript" id="fusion-carousel-js-extra">//<![CDATA[
+var fusionCarouselVars={"related_posts_speed":"2500","carousel_speed":"2500"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-carousel.js.다운로드" id="fusion-carousel-js"></script>
+<script type="text/javascript" id="fusion-flexslider-js-extra">//<![CDATA[
+var fusionFlexSliderVars={"status_vimeo":"","page_smoothHeight":"false","slideshow_autoplay":"1","slideshow_speed":"7000","pagination_video_slide":"","status_yt":"","flex_smoothHeight":"false"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-flexslider.js.다운로드" id="fusion-flexslider-js"></script>
+<script type="text/javascript" src="./index_files/fusion-popover.js.다운로드" id="fusion-popover-js"></script>
+<script type="text/javascript" src="./index_files/fusion-tooltip.js.다운로드" id="fusion-tooltip-js"></script>
+<script type="text/javascript" src="./index_files/fusion-sharing-box.js.다운로드" id="fusion-sharing-box-js"></script>
+<script type="text/javascript" id="fusion-blog-js-extra">//<![CDATA[
+var fusionBlogVars={"infinite_blog_text":"<em>Loading the next set of posts...<\/em>","infinite_finished_msg":"<em>All items displayed.<\/em>","slideshow_autoplay":"1","slideshow_speed":"7000","pagination_video_slide":"","status_yt":"","lightbox_behavior":"all","blog_pagination_type":"Infinite Scroll","flex_smoothHeight":"false"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-blog.js.다운로드" id="fusion-blog-js"></script>
+<script type="text/javascript" src="./index_files/fusion-button.js.다운로드" id="fusion-button-js"></script>
+<script type="text/javascript" src="./index_files/fusion-general-global.js.다운로드" id="fusion-general-global-js"></script>
+<script type="text/javascript" id="avada-header-js-extra">//<![CDATA[
+var avadaHeaderVars={"header_position":"top","header_layout":"v2","header_sticky":"1","header_sticky_type2_layout":"menu_only","header_sticky_shadow":"1","side_header_break_point":"800","header_sticky_mobile":"0","header_sticky_tablet":"0","mobile_menu_design":"modern","sticky_header_shrinkage":"1","nav_height":"100","nav_highlight_border":"0","nav_highlight_style":"bar","logo_margin_top":"25px","logo_margin_bottom":"25px","layout_mode":"wide","header_padding_top":"0px","header_padding_bottom":"0px","offset_scroll":"full"};
+//]]></script>
+<script type="text/javascript" src="./index_files/avada-header.js.다운로드" id="avada-header-js"></script>
+<script type="text/javascript" id="avada-menu-js-extra">//<![CDATA[
+var avadaMenuVars={"header_position":"Top","logo_alignment":"Left","header_sticky":"1","header_sticky_mobile":"0","header_sticky_tablet":"0","side_header_break_point":"800","mobile_menu_design":"modern","dropdown_goto":"Go to...","mobile_nav_cart":"Shopping Cart","mobile_submenu_open":"Open Sub Menu Of","mobile_submenu_close":"Close Sub Menu Of","submenu_slideout":"1"};
+//]]></script>
+<script type="text/javascript" src="./index_files/avada-menu.js.다운로드" id="avada-menu-js"></script>
+<script type="text/javascript" id="fusion-scroll-to-anchor-js-extra">//<![CDATA[
+var fusionScrollToAnchorVars={"content_break_point":"800","container_hundred_percent_height_mobile":"0"};
+//]]></script>
+<script type="text/javascript" src="./index_files/fusion-scroll-to-anchor.js.다운로드" id="fusion-scroll-to-anchor-js"></script>
+<script type="text/javascript" src="./index_files/bootstrap.scrollspy.js.다운로드" id="bootstrap-scrollspy-js"></script>
+<script type="text/javascript" id="avada-comments-js-extra">//<![CDATA[
+var avadaCommentVars={"title_style_type":"none","title_margin_top":"0px","title_margin_bottom":"31px"};
+//]]></script>
+<script type="text/javascript" src="./index_files/avada-comments.js.다운로드" id="avada-comments-js"></script>
+<script type="text/javascript" src="./index_files/avada-general-footer.js.다운로드" id="avada-general-footer-js"></script>
+<script type="text/javascript" src="./index_files/avada-quantity.js.다운로드" id="avada-quantity-js"></script>
+<script type="text/javascript" src="./index_files/avada-scrollspy.js.다운로드" id="avada-scrollspy-js"></script>
+<script type="text/javascript" src="./index_files/avada-select.js.다운로드" id="avada-select-js"></script>
+<script type="text/javascript" id="avada-sidebars-js-extra">//<![CDATA[
+var avadaSidebarsVars={"header_position":"top","header_layout":"v2","header_sticky":"1","header_sticky_type2_layout":"menu_only","side_header_break_point":"800","header_sticky_tablet":"0","sticky_header_shrinkage":"1","nav_height":"100","content_break_point":"800"};
+//]]></script>
+<script type="text/javascript" src="./index_files/avada-sidebars.js.다운로드" id="avada-sidebars-js"></script>
+<script type="text/javascript" src="./index_files/jquery.sticky-kit.js.다운로드" id="jquery-sticky-kit-js"></script>
+<script type="text/javascript" src="./index_files/avada-tabs-widget.js.다운로드" id="avada-tabs-widget-js"></script>
+<script type="text/javascript" id="avada-mobile-image-hover-js-extra">//<![CDATA[
+var avadaMobileImageVars={"side_header_break_point":"800"};
+//]]></script>
+<script type="text/javascript" src="./index_files/avada-mobile-image-hover.js.다운로드" id="avada-mobile-image-hover-js"></script>
+<script type="text/javascript" src="./index_files/avada-contact-form-7.js.다운로드" id="avada-contact-form-7-js"></script>
+<script type="text/javascript" src="./index_files/prism.js.다운로드" id="hcb-prism-js"></script>
+<script type="text/javascript" src="./index_files/clipboard.min.js.다운로드" id="clipboard-js"></script>
+<script type="text/javascript" id="hcb-script-js-extra">//<![CDATA[
+var hcbVars={"showCopyBtn":"1","copyBtnLabel":"Copy code to clipboard"};
+//]]></script>
+<script type="text/javascript" src="./index_files/hcb_script.js.다운로드" id="hcb-script-js"></script>
+<script defer="" type="text/javascript" src="./index_files/e-202446.js.다운로드" id="jetpack-stats-js"></script>
+<script type="text/javascript" id="jetpack-stats-js-after">_stq=window._stq||[];_stq.push(["view",{v:'ext',blog:'200777620',post:'1828',tz:'9',srv:'hongong.hanbit.co.kr',j:'1:12.8.2'}]);_stq.push(["clickTrackerInit","200777620","1828"]);</script>
+<script type="text/javascript" id="kboard-script-js-extra">//<![CDATA[
+var kboard_settings={"version":"6.3","home_url":"\/","site_url":"\/","post_url":"https:\/\/hongong.hanbit.co.kr\/wp-admin\/admin-post.php","ajax_url":"https:\/\/hongong.hanbit.co.kr\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/hongong.hanbit.co.kr\/wp-content\/plugins\/kboard","media_group":"673a27d45d073","view_iframe":"","locale":"ko_KR","ajax_security":"f9f322810f"};var kboard_localize_strings={"kboard_add_media":"KBoard \ubbf8\ub514\uc5b4 \ucd94\uac00","next":"\ub2e4\uc74c","prev":"\uc774\uc804","required":"%s\uc740(\ub294) \ud544\uc218\uc785\ub2c8\ub2e4.","please_enter_the_title":"\uc81c\ubaa9\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_author":"\uc791\uc131\uc790\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_password":"\ube44\ubc00\ubc88\ud638\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_CAPTCHA":"\uc606\uc5d0 \ubcf4\uc774\ub294 \ubcf4\uc548\ucf54\ub4dc\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_name":"\uc774\ub984\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_email":"\uc774\uba54\uc77c\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","you_have_already_voted":"\uc774\ubbf8 \ud22c\ud45c\ud588\uc2b5\ub2c8\ub2e4.","please_wait":"\uae30\ub2e4\ub824\uc8fc\uc138\uc694.","newest":"\ucd5c\uc2e0\uc21c","best":"\ucd94\ucc9c\uc21c","updated":"\uc5c5\ub370\uc774\ud2b8\uc21c","viewed":"\uc870\ud68c\uc21c","yes":"\uc608","no":"\uc544\ub2c8\uc694","did_it_help":"\ub3c4\uc6c0\uc774 \ub418\uc5c8\ub098\uc694?","hashtag":"\ud574\uc2dc\ud0dc\uadf8","tag":"\ud0dc\uadf8","add_a_tag":"\ud0dc\uadf8 \ucd94\uac00","removing_tag":"\ud0dc\uadf8 \uc0ad\uc81c","changes_you_made_may_not_be_saved":"\ubcc0\uacbd\uc0ac\ud56d\uc774 \uc800\uc7a5\ub418\uc9c0 \uc54a\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.","name":"\uc774\ub984","email":"\uc774\uba54\uc77c","address":"\uc8fc\uc18c","address_2":"\uc8fc\uc18c 2","postcode":"\uc6b0\ud3b8\ubc88\ud638","phone_number":"\ud734\ub300\ud3f0\ubc88\ud638","mobile_phone":"\ud734\ub300\ud3f0\ubc88\ud638","phone":"\ud734\ub300\ud3f0\ubc88\ud638","company_name":"\ud68c\uc0ac\uba85","vat_number":"\uc0ac\uc5c5\uc790\ub4f1\ub85d\ubc88\ud638","bank_account":"\uc740\ud589\uacc4\uc88c","name_of_deposit":"\uc785\uae08\uc790\uba85","find":"\ucc3e\uae30","rate":"\ub4f1\uae09","ratings":"\ub4f1\uae09","waiting":"\ub300\uae30","complete":"\uc644\ub8cc","question":"\uc9c8\ubb38","answer":"\ub2f5\ubcc0","notify_me_of_new_comments_via_email":"\uc774\uba54\uc77c\ub85c \uc0c8\ub85c\uc6b4 \ub313\uae00 \uc54c\ub9bc \ubc1b\uae30","ask_question":"\uc9c8\ubb38\ud558\uae30","categories":"\uce74\ud14c\uace0\ub9ac","pages":"\ud398\uc774\uc9c0","all_products":"\uc804\uccb4\uc0c1\ud488","your_orders":"\uc8fc\ubb38\uc870\ud68c","your_sales":"\ud310\ub9e4\uc870\ud68c","my_orders":"\uc8fc\ubb38\uc870\ud68c","my_sales":"\ud310\ub9e4\uc870\ud68c","new_product":"\uc0c1\ud488\ub4f1\ub85d","edit_product":"\uc0c1\ud488\uc218\uc815","delete_product":"\uc0c1\ud488\uc0ad\uc81c","seller":"\ud310\ub9e4\uc790","period":"\uae30\uac04","period_of_use":"\uc0ac\uc6a9\uae30\uac04","last_updated":"\uc5c5\ub370\uc774\ud2b8 \ub0a0\uc9dc","list_price":"\uc815\uc0c1\uac00\uaca9","price":"\ud310\ub9e4\uac00\uaca9","total_price":"\ucd1d \uac00\uaca9","amount":"\uacb0\uc81c\uae08\uc561","quantity":"\uc218\ub7c9","use_points":"\ud3ec\uc778\ud2b8 \uc0ac\uc6a9","my_points":"\ub0b4 \ud3ec\uc778\ud2b8","available_points":"\uc0ac\uc6a9 \uac00\ub2a5 \ud3ec\uc778\ud2b8","apply_points":"\ud3ec\uc778\ud2b8 \uc0ac\uc6a9","buy_it_now":"\uad6c\ub9e4\ud558\uae30","sold_out":"\ud488\uc808","for_free":"\ubb34\ub8cc","pay_s":"%s \uacb0\uc81c","payment_method":"\uacb0\uc81c\uc218\ub2e8","credit_card":"\uc2e0\uc6a9\uce74\ub4dc","make_a_deposit":"\ubb34\ud1b5\uc7a5\uc785\uae08","reward_point":"\uc801\ub9bd \ud3ec\uc778\ud2b8","download_expiry":"\ub2e4\uc6b4\ub85c\ub4dc \uae30\uac04","checkout":"\uc8fc\ubb38\uc815\ubcf4\ud655\uc778","buyer_information":"\uc8fc\ubb38\uc790","applying_cash_receipts":"\ud604\uae08\uc601\uc218\uc99d \uc2e0\uccad","applying_cash_receipt":"\ud604\uae08\uc601\uc218\uc99d \uc2e0\uccad","cash_receipt":"\ud604\uae08\uc601\uc218\uc99d","privacy_policy":"\uac1c\uc778 \uc815\ubcf4 \uc815\ucc45","i_agree_to_the_privacy_policy":"\uac1c\uc778 \uc815\ubcf4 \uc815\ucc45\uc5d0 \ub3d9\uc758\ud569\ub2c8\ub2e4.","i_confirm_the_terms_of_the_transaction_and_agree_to_the_payment_process":"\uac70\ub798\uc870\uac74\uc744 \ud655\uc778\ud588\uc73c\uba70 \uacb0\uc81c\uc9c4\ud589\uc5d0 \ub3d9\uc758\ud569\ub2c8\ub2e4.","today":"\uc624\ub298","yesterday":"\uc5b4\uc81c","this_month":"\uc774\ubc88\ub2ec","last_month":"\uc9c0\ub09c\ub2ec","last_30_days":"\ucd5c\uadfc30\uc77c","agree":"\ucc2c\uc131","disagree":"\ubc18\ub300","opinion":"\uc758\uacac","comment":"\ub313\uae00","comments":"\ub313\uae00","your_order_has_been_cancelled":"\uc8fc\ubb38\uc774 \ucde8\uc18c\ub418\uc5c8\uc2b5\ub2c8\ub2e4.","order_information_has_been_changed":"\uc8fc\ubb38\uc815\ubcf4\uac00 \ubcc0\uacbd\ub418\uc5c8\uc2b5\ub2c8\ub2e4.","order_date":"\uc8fc\ubb38\uc77c","point_payment":"\ud3ec\uc778\ud2b8 \uacb0\uc81c","cancel_point_payment":"\ud3ec\uc778\ud2b8 \uacb0\uc81c \ucde8\uc18c","paypal":"\ud398\uc774\ud314","point":"\ud3ec\uc778\ud2b8","zipcode":"\uc6b0\ud3b8\ubc88\ud638","this_year":"\uc62c\ud574","last_year":"\uc791\ub144","period_total":"\uae30\uac04 \ud569\uacc4","total_revenue":"\uc804\uccb4 \uc218\uc775","terms_of_service":"\uc774\uc6a9\uc57d\uad00","i_agree_to_the_terms_of_service":"\uc774\uc6a9\uc57d\uad00\uc5d0 \ub3d9\uc758\ud569\ub2c8\ub2e4.","your_shopping_cart_is_empty":"\uc7a5\ubc14\uad6c\ub2c8\uac00 \ube44\uc5b4 \uc788\uc2b5\ub2c8\ub2e4!","category":"\uce74\ud14c\uace0\ub9ac","select":"\uc120\ud0dd","category_select":"\uce74\ud14c\uace0\ub9ac \uc120\ud0dd","information":"\uc815\ubcf4","telephone":"\uc804\ud654\ubc88\ud638","items":"\ud488\ubaa9","total_amount":"\ud569\uacc4\uae08\uc561","total_quantity":"\ucd1d\uc218\ub7c9","make_payment":"\uacb0\uc81c\ud558\uae30","add":"\ucd94\uac00","close":"\ub2eb\uae30"};var kboard_comments_localize_strings={"reply":"\ub2f5\uae00","cancel":"\ucde8\uc18c","please_enter_the_author":"\uc791\uc131\uc790\uba85\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_password":"\ube44\ubc00\ubc88\ud638\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_CAPTCHA":"\ubcf4\uc548\ucf54\ub4dc\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_content":"\ub0b4\uc6a9\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","are_you_sure_you_want_to_delete":"\uc0ad\uc81c \ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?","please_wait":"\uc7a0\uc2dc\ub9cc \uae30\ub2e4\ub824\uc8fc\uc138\uc694.","name":"\uc774\ub984","email":"\uc774\uba54\uc77c","address":"\uc8fc\uc18c","postcode":"\uc6b0\ud3b8\ubc88\ud638","phone_number":"\uc5f0\ub77d\ucc98","find":"\ucc3e\uae30","rate":"\ub4f1\uae09","ratings":"\ub4f1\uae09","waiting":"\ub300\uae30","complete":"\uc644\ub8cc","question":"\uc9c8\ubb38","answer":"\ub2f5\ubcc0","notify_me_of_new_comments_via_email":"\uc774\uba54\uc77c\ub85c \uc0c8\ub85c\uc6b4 \ub313\uae00 \uc54c\ub9bc \ubc1b\uae30","comment":"\ub313\uae00","comments":"\ub313\uae00"};
+//]]></script>
+<script type="text/javascript" src="./index_files/script.js.다운로드" id="kboard-script-js"></script>
+<script type="text/javascript" src="./index_files/postcode.v2.js.다운로드" id="daum-postcode-js"></script>
+	
+
+<iframe allow="join-ad-interest-group" data-tagging-id="G-9X8KV75QGW" data-load-time="1731864532711" height="0" width="0" src="./index_files/rul.html" style="display: none; visibility: hidden;"></iframe><img src="./index_files/g.gif" alt="" width="6" height="5" id="wpstats"></body></html>
